@@ -62,8 +62,18 @@ header .container .menu .top-menu {
   border-bottom: 1px solid #DAD9D3;
   padding-bottom: 10px;
 }
+@media (min-width: 1200px) {
+  header .container .menu .top-menu {
+    justify-content: space-between;
+  }
+}
 header .container .menu .contact-information {
-  display: flex;
+  display: none;
+}
+@media (min-width: 1200px) {
+  header .container .menu .contact-information {
+    display: flex;
+  }
 }
 header .container .menu .content-box {
   margin-right: 30px;
