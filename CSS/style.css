@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
 html, body {
   color: #191919;
   font-family: "Inter", sans-serif;
@@ -10,7 +11,7 @@ html, body {
   background-color: #F9D783;
   border: solid 1px #F9D783;
   color: #191919;
-  padding: 8px 25px;
+  padding: 15px 25px;
   font-weight: 600;
   border-radius: 25px;
   font-size: 16px;
@@ -25,8 +26,27 @@ html, body {
   color: #f0ef09;
 }
 
+.btn-transparent {
+  background-color: transparent;
+  border: solid 1px #191919;
+  color: #191919;
+  padding: 15px 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.btn-transparent i {
+  margin-left: 5px;
+  font-size: 0.5em;
+}
+.btn-transparent:hover {
+  background-color: #191919;
+  border: 1px solid;
+  color: #f0ef09;
+}
+
 header {
-  background-color: beige;
+  background-color: #F0EFE9;
   display: flex;
   padding: 20px;
 }
@@ -125,4 +145,45 @@ header .container nav a.active::after, header .container nav a:hover::after {
   left: 50%;
   bottom: -3px;
   transform: translate(calc(50% - 15px));
+}
+header .container .btn-login {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.showcase {
+  background-color: #F0EFE9;
+}
+.showcase .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.showcase .container .content h1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 86px;
+}
+@media (min-width: 1200px) {
+  .showcase .container .content h1 {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1400px) {
+  .showcase .container .content h1 {
+    font-size: 86px;
+  }
+}
+.showcase .container .content p {
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.showcase .container .content a {
+  margin-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.showcase img {
+  margin-right: -50px;
 }
