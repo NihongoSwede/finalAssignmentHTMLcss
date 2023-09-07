@@ -48,6 +48,30 @@ html, body{
     }
 }
 
+.btn-black{
+    background-color: #191919;
+    border: solid 1px #191919;
+    color: white;
+    padding: 15px 25px;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: normal;
+
+
+    i {
+        margin-left: 5px;
+        font-size: 0.5em;
+    }
+    
+    &:hover{
+        background-color: #191919;
+        border: 1px solid;
+        color: #f0ef09;
+    } 
+}
+
 header{
 
     background-color: #F0EFE9;
@@ -348,5 +372,79 @@ header{
     }
 }
 
+.aboutCompany{
+    .container{
+        display: flex;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        justify-content: center;
+
+        img{
+            width: 533px;
+            height: 615;
+            margin-left: 50px;
+            margin-right: 170px;
+        }
+
+        .aboutCompanyContent{
+            justify-content: space-between;
+
+            h4{
+                font-family: "Inter";
+                font-size: 18px;
+                font-weight: 500;
+                font-style: normal;
+                color: #f94d1c;
+
+            }
+
+            h3{
+                font-family: "DM Sans";
+                font-size: 45px;
+                font-weight: bold;
+                font-style: normal;
+                color: #191919;
+                margin-bottom: 37px;
+
+            }
+
+            p{
+                font-family: "Inter";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                color: rgba(25,25,25,0.7 );
+                margin-bottom: 70px;
+
+            }
+
+            a{
+                
+            }
+
+            .play-button{
+                font-family: "Inter";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                text-align: center;
+                color: #191919;
+                
+                
+                i{
+                    font-size: 2rem;
+                    margin-left: 39px;
+                    
+                }
+
+                &:hover{
+                    color: #f94d1c;
+                }
+
+            }
+            
+        }
+    }
+}
 
 
