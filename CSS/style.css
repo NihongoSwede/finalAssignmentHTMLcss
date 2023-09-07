@@ -164,9 +164,9 @@ header .container .btn-login {
   font-weight: 700;
   font-size: 86px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .showcase .container .content h1 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 @media (min-width: 1400px) {
@@ -179,11 +179,93 @@ header .container .btn-login {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+@media (min-width: 768px) {
+  .showcase .container .content p {
+    font-size: 20px;
+  }
+}
 .showcase .container .content a {
   margin-right: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
+@media (min-width: 600px) {
+  .showcase .container .content a {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .showcase .container .content {
+    font-size: 20px;
+  }
+}
 .showcase img {
   margin-right: -50px;
+}
+@media (max-width: 768px) {
+  .showcase img {
+    display: none;
+  }
+}
+
+.company-showcase .container .clients {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding-top: 72px;
+  padding-bottom: 80px;
+}
+
+.company-features .container {
+  display: flex;
+  align-items: start;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border: 2px solid RGBA(25, 25, 25, 0.2);
+}
+.company-features .container .features {
+  padding-right: 100px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 50%;
+}
+.company-features .container .features p {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  color: #f94d1c;
+  margin-bottom: 0px;
+}
+.company-features .container .features h3 {
+  font-family: "DM Sans";
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  color: #191919;
+}
+.company-features .container .features a {
+  text-align: center;
+  font-size: 16px;
+  width: 400px;
+  height: 56px;
+}
+.company-features .container .company-features-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.company-features .container .company-features-icons .iconStack i {
+  width: 40px;
+  height: 40px;
+}
+.company-features .container .company-features-icons .iconStack p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(25, 25, 25, 0.7);
 }

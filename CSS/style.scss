@@ -187,20 +187,21 @@ header{
 
 .showcase{
     background-color: #F0EFE9;
+    
     .container{
         display: flex;
         justify-content: space-between;
         align-items: center;
 
         .content{
-            
+                
             h1{
                 font-family: 'DM Sans', sans-serif;
                 font-weight: 700;
                 font-size: 86px;
 
-                @media (min-width: 1200px){
-                    font-size: 70px;
+                @media (min-width: 768px){
+                    font-size: 50px;
                 }
                 
                 
@@ -213,6 +214,11 @@ header{
                 font-size: 20px;
                 padding-top: 40px;
                 padding-bottom: 40px;
+
+                @media (min-width: 768px){
+                    font-size: 20px;
+            
+                }
     
             }
     
@@ -220,11 +226,125 @@ header{
                 margin-right: 10px;
                 padding-top: 15px;
                 padding-bottom: 15px;
+
+                @media (min-width: 600px){
+                    font-size: 20px;
+                    display: inline-block;
+                    margin-bottom: 20px;
+            
+                }
+
+
             }
+
+            @media (min-width: 768px){
+                font-size: 20px;
+            }
+
         }
     }
+    
     img{
         margin-right: -50px;
+
+        @media (max-width: 768px){
+            display: none;
+        }
+
+        
+    }
+}
+
+.company-showcase{
+    .container{
+        .clients{
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            padding-top: 72px;
+            padding-bottom: 80px;     
+
+        }
+    }
+}
+
+.company-features{
+    
+    
+    .container{
+        display: flex;
+        align-items: start;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        border: 2px solid RGBA(25,25,25,0.2 );        
+        
+        .features{
+            padding-right: 100px;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            max-width: 50%;
+            
+        
+            
+
+            p{
+                font-family: "Inter";
+                font-size: 15px;
+                font-weight: 500;
+                font-style: normal;
+                color: #f94d1c;
+                margin-bottom: 0px;
+
+            }
+
+            h3{
+                font-family: "DM Sans";
+                font-size: 35px;
+                font-weight: bold;
+                font-style: normal;
+                color: #191919;
+
+            }
+
+            a{
+                text-align: center;
+                font-size: 16px;
+                width: 400px;
+                height: 56px;
+        
+            }
+        
+        }
+
+        .company-features-icons{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+
+            .iconStack{
+                i{
+                    width: 40px;
+                    height: 40px;
+
+                }
+
+                h4{
+                    
+                }
+
+                p{
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    color: rgba(25,25,25,0.7 );
+
+                }
+            }
+
+        }
     }
 }
 
