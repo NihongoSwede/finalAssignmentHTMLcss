@@ -52,7 +52,7 @@ html, body{
     background-color: #191919;
     border: solid 1px #191919;
     color: white;
-    padding: 15px 25px;
+    padding: 10px 25px;
     font-weight: 600;
     border-radius: 25px;
     font-size: 16px;
@@ -414,31 +414,44 @@ header{
                 font-weight: normal;
                 font-style: normal;
                 color: rgba(25,25,25,0.7 );
-                margin-bottom: 70px;
+                padding-bottom: 30px;
 
             }
 
-            a{
+            .icon-pack{
+                display: flex;
+                align-items: center; 
                 
-            }
+                a{
+                    display: flex;
+                    align-items: center;  
+              
+                  }
+      
+                  .play-button{
+                      font-family: "Inter";
+                      font-size: 16px;
+                      font-weight: normal;
+                      font-style: normal;
+                      text-align: center;
+                      color: #191919;
 
-            .play-button{
-                font-family: "Inter";
-                font-size: 16px;
-                font-weight: normal;
-                font-style: normal;
-                text-align: center;
-                color: #191919;
-                
-                
-                i{
-                    font-size: 2rem;
-                    margin-left: 39px;
-                    
-                }
+                      
+                      
+                      i{
+                          font-size: 3rem;
+                          padding-left: 30px;
+                          padding-right: 8px;
 
-                &:hover{
-                    color: #f94d1c;
+                          
+                      }
+      
+                      &:hover{
+                          color: #f94d1c;
+                          text-decoration: none;
+                          
+
+                    }
                 }
 
             }
@@ -447,4 +460,105 @@ header{
     }
 }
 
+.companyServices{
+    display: flex;
+    align-content: center;
+    background-color: #F0EFE9;
+    
+    .container{
+        
+        
 
+        .content-header{
+            padding-top: 120px;   
+            font-family: "Inter";
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            font-style: normal;
+            color: #f94d1c;
+
+        }
+
+        h3{
+            font-family: "DM Sans";
+            font-size: 45px;
+            font-weight: bold;
+            font-style: normal;
+            text-align: left;
+            color: #191919;
+            padding-bottom: 48px;
+
+        }
+
+        .stacks-showcase{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 25px;
+            padding-bottom: 48px;
+            
+
+            .squares-button{
+                background-color: #ffffff;
+                padding: 30px 35px;
+                text-decoration: none;
+                
+
+                
+
+                h4{
+                    padding-top: 30px;
+                    font-family: "DM Sans";
+                    font-size: 22px;
+                    font-weight: bold;
+                    font-style: normal;
+                    color: #191919;
+
+                }
+    
+                p{
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    color: rgba(25,25,25,0.7 );
+                }
+                
+                .icon-square{
+                    display: flex;
+                    justify-content: end;
+                    
+                    i{
+                        font-size: 45px;
+                        padding-bottom: 20px;
+                        padding-top: 10px;
+                        color: #191919;
+                        
+
+                    }
+                }
+
+                &:hover{
+                    background-color: #F9D783;
+
+                    i{
+                        color: #ffffff;
+                    }
+                
+    
+                }
+                
+            }
+
+
+        }
+        
+        .singleButton{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 119px;
+        }
+    }   
+    
+
+}
