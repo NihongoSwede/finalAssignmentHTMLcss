@@ -25,6 +25,7 @@ html, body{
         background-color: #191919;
         border: 1px solid;
         color: #f0ef09;
+        
     }
 }
 
@@ -48,7 +49,27 @@ html, body{
     }
 }
 
-.btn-black{
+.btn-transparent-mid{
+    background-color: transparent;
+    border: solid 1px #191919;
+    color: #191919;
+    padding: 15px 30px;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 16px;
+
+    i {
+        margin-left: 5px;
+        font-size: 0.5em;
+    }
+    &:hover{
+        background-color: #191919;
+        border: 1px solid;
+        color: #f0ef09;
+    }
+}
+
+.btn-black {
     background-color: #191919;
     border: solid 1px #191919;
     color: white;
@@ -57,20 +78,31 @@ html, body{
     border-radius: 25px;
     font-size: 16px;
     font-family: "Inter";
-    font-weight: normal;
+    font-weight: normal;   
+}
 
+.btn-black i {
+    margin-left: 5px;
+    font-size: 1em;
+    opacity: 1;
+    height: 17px;
+    
+    /***** På denna del är det som ikonen ändras *****/
 
-    i {
-        margin-left: 5px;
-        font-size: 0.5em;
+}
+
+.btn-black:hover {
+    background-color: #F9D783;
+    border: 1px solid;
+    color:  #191919;
+
+    i{
+        text-decoration: none;
     }
     
-    &:hover{
-        background-color: #191919;
-        border: 1px solid;
-        color: #f0ef09;
-    } 
+    
 }
+
 
 header{
 
@@ -420,15 +452,16 @@ header{
 
             .icon-pack{
                 display: flex;
-                align-items: center; 
+                
                 
                 a{
                     display: flex;
-                    align-items: center;  
-              
+                    align-items: center;
+
                   }
+
       
-                  .play-button{
+                    .play-button{
                       font-family: "Inter";
                       font-size: 16px;
                       font-weight: normal;
@@ -466,7 +499,7 @@ header{
     background-color: #F0EFE9;
     
     .container{
-        
+     
         
 
         .content-header{
@@ -504,8 +537,6 @@ header{
                 text-decoration: none;
                 
 
-                
-
                 h4{
                     padding-top: 30px;
                     font-family: "DM Sans";
@@ -529,10 +560,12 @@ header{
                     justify-content: end;
                     
                     i{
-                        font-size: 45px;
-                        padding-bottom: 20px;
-                        padding-top: 10px;
-                        color: #191919;
+                        font-size: 20px;
+                        border-radius: 50%;
+                        color: #ffffff;
+                        background: black;
+                        padding: 10px 10px;
+                        
                         
 
                     }
@@ -542,7 +575,8 @@ header{
                     background-color: #F9D783;
 
                     i{
-                        color: #ffffff;
+                        color: #191919;
+                        background: #ffffff;
                     }
                 
     

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
 html, body {
@@ -45,6 +46,25 @@ html, body {
   color: #f0ef09;
 }
 
+.btn-transparent-mid {
+  background-color: transparent;
+  border: solid 1px #191919;
+  color: #191919;
+  padding: 15px 30px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.btn-transparent-mid i {
+  margin-left: 5px;
+  font-size: 0.5em;
+}
+.btn-transparent-mid:hover {
+  background-color: #191919;
+  border: 1px solid;
+  color: #f0ef09;
+}
+
 .btn-black {
   background-color: #191919;
   border: solid 1px #191919;
@@ -56,14 +76,22 @@ html, body {
   font-family: "Inter";
   font-weight: normal;
 }
+
 .btn-black i {
   margin-left: 5px;
-  font-size: 0.5em;
+  font-size: 1em;
+  opacity: 1;
+  height: 17px;
+  /***** På denna del är det som ikonen ändras *****/
 }
+
 .btn-black:hover {
-  background-color: #191919;
+  background-color: #F9D783;
   border: 1px solid;
-  color: #f0ef09;
+  color: #191919;
+}
+.btn-black:hover i {
+  text-decoration: none;
 }
 
 header {
@@ -331,7 +359,6 @@ header .container .btn-login {
 }
 .aboutCompany .container .aboutCompanyContent .icon-pack {
   display: flex;
-  align-items: center;
 }
 .aboutCompany .container .aboutCompanyContent .icon-pack a {
   display: flex;
@@ -409,16 +436,18 @@ header .container .btn-login {
   justify-content: end;
 }
 .companyServices .container .stacks-showcase .squares-button .icon-square i {
-  font-size: 45px;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  color: #191919;
+  font-size: 20px;
+  border-radius: 50%;
+  color: #ffffff;
+  background: black;
+  padding: 10px 10px;
 }
 .companyServices .container .stacks-showcase .squares-button:hover {
   background-color: #F9D783;
 }
 .companyServices .container .stacks-showcase .squares-button:hover i {
-  color: #ffffff;
+  color: #191919;
+  background: #ffffff;
 }
 .companyServices .container .singleButton {
   display: flex;
