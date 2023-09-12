@@ -737,3 +737,54 @@ header{
         }
     }
 }
+
+.global-projects{
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .top-global{
+            margin-top: 50px;
+            
+            h3{
+
+            }
+
+            h4{
+
+            }
+        }
+
+        .global-projects-box{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            
+            .box-container{
+                img{
+                    width: 540px;
+                    height: 250px;
+                }
+
+                h4{
+
+                }
+
+                .linkb{
+                    span{
+
+                    }
+
+                    i{
+
+                    }
+                }
+            }
+        }
+
+        
+
+
+    }
+}
