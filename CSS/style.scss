@@ -100,6 +100,38 @@ html, body{
     }
 }
 
+.btn-black-btm {
+    background-color: #191919;
+    border: solid 1px #191919;
+    color: white;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: normal;
+    margin-bottom: 92px;   
+
+
+
+    i {
+        margin-left: 5px;
+        font-size: 0.5em;
+        opacity: 1;
+        
+    }
+    &:hover {
+        background-color: #F9D783;
+        border: 1px solid;
+        color:  #191919;
+        text-decoration: none;
+
+        span {
+            text-decoration: underline;
+        }
+    }
+}
+
 // .btn-black i {
 //     margin-left: 5px;
 //     font-size: 1em;
@@ -746,12 +778,26 @@ header{
         
         .top-global{
             margin-top: 50px;
+            margin-bottom: 85px;
             
             h3{
+                font-family: "Inter";
+                font-size: 18px;
+                font-weight: 500;
+                font-style: normal;
+                text-align: center;
+                color: #f94d1c;
 
             }
 
             h4{
+                font-family: "DM Sans";
+                font-size: 45px;
+                font-weight: bold;
+                line-height: 55px;
+                font-style: normal;
+                text-align: center;
+                color: #191919;
 
             }
         }
@@ -765,26 +811,58 @@ header{
                 img{
                     width: 540px;
                     height: 250px;
+                    margin-bottom: 30px;
                 }
 
                 h4{
+                    font-family: "DM Sans";
+                    font-size: 18px;
+                    font-weight: bold;
+                    line-height: 33px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #191919;
+                    border-bottom: 1px solid #DAD9D3;
+                    padding-bottom: 10px;
 
                 }
 
-                .linkb{
+                .linkB{
+                    display: flex;
+                    justify-content: end;
+                    color:  #191919;
+                    margin-bottom: 40px;
+                    padding-top: 40px;
+                    
+                    
                     span{
+                        font-family: "Inter";
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-style: normal;
+                        text-align: center;
+                        color: #191919;
+                        margin-right: 2px;
 
                     }
 
                     i{
+                        width: 16px;
+                        height: 16px;
+                        color:  #191919;
 
                     }
-                }
-            }
+                    
+                    &:hover {
+                        color:  #191919;
+                        text-decoration: none;
+                
+                        span {
+                            text-decoration: underline;
+                        }
+                    }
+                }   
+            }   
         }
-
-        
-
-
     }
 }
