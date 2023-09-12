@@ -778,7 +778,7 @@ header{
         
         .top-global{
             margin-top: 50px;
-            margin-bottom: 85px;
+            margin-bottom: 75px;
             
             h3{
                 font-family: "Inter";
@@ -806,6 +806,7 @@ header{
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 25px;
+            margin-bottom: 20px;
             
             .box-container{
                 img{
@@ -831,8 +832,8 @@ header{
                     display: flex;
                     justify-content: end;
                     color:  #191919;
-                    margin-bottom: 40px;
-                    padding-top: 40px;
+                    margin-bottom: 30px;
+                    padding-top: 15px;
                     
                     
                     span{

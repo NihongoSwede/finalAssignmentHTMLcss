@@ -564,7 +564,7 @@ header .container .btn-login {
 }
 .global-projects .container .top-global {
   margin-top: 50px;
-  margin-bottom: 85px;
+  margin-bottom: 75px;
 }
 .global-projects .container .top-global h3 {
   font-family: "Inter";
@@ -587,6 +587,7 @@ header .container .btn-login {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px;
+  margin-bottom: 20px;
 }
 .global-projects .container .global-projects-box .box-container img {
   width: 540px;
@@ -608,8 +609,8 @@ header .container .btn-login {
   display: flex;
   justify-content: end;
   color: #191919;
-  margin-bottom: 40px;
-  padding-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 15px;
 }
 .global-projects .container .global-projects-box .box-container .linkB span {
   font-family: "Inter";
