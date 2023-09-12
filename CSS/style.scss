@@ -79,29 +79,52 @@ html, body{
     font-size: 16px;
     font-family: "Inter";
     font-weight: normal;   
-}
 
-.btn-black i {
-    margin-left: 5px;
-    font-size: 1em;
-    opacity: 1;
-    height: 17px;
-    
-    /***** På denna del är det som ikonen ändras *****/
 
-}
 
-.btn-black:hover {
-    background-color: #F9D783;
-    border: 1px solid;
-    color:  #191919;
-
-    i{
-        text-decoration: none;
+    i {
+        margin-left: 5px;
+        font-size: 0.5em;
+        opacity: 1;
+        
     }
-    
-    
+    &:hover {
+        background-color: #F9D783;
+        border: 1px solid;
+        color:  #191919;
+        text-decoration: none;
+
+        span {
+            text-decoration: underline;
+        }
+    }
 }
+
+// .btn-black i {
+//     margin-left: 5px;
+//     font-size: 1em;
+//     opacity: 1;
+//     height: 17px;
+    
+//     /***** På denna del är det som ikonen ändras *****/
+
+// }
+
+// .btn-black:hover {
+//     background-color: #F9D783;
+//     border: 1px solid;
+//     color:  #191919;
+
+//     // i{
+//     //     text-decoration: none;
+//     // }
+    
+    
+// }
+
+// .btn-black:hover .fa-arrow-up-right::before {
+//     text-decoration: none !important;
+// }
 
 
 header{
@@ -597,3 +620,120 @@ header{
 
 }
 
+.whyChooseUs{
+    
+    .container{
+        display: flex;
+        margin-top: 43px;
+        width: 1620px;
+        height: 630.3px;
+        
+        .leftSection{
+           
+            
+            h3{
+                font-family: "Inter";
+                font-size: 18px;
+                font-weight: 500;
+                font-style: normal;
+                text-align: left;
+                color: #f94d1c;
+                
+            }
+
+            h4{
+                font-family: "DM Sans";
+                font-size: 45px;
+                font-weight: bold;
+                font-style: normal;
+                text-align: left;
+                color: #191919;
+                margin-bottom: 43px;
+
+            }
+
+            .stackIconArg{
+                display: flex;
+                align-items: start;
+                justify-content: start;
+                margin-bottom: 25px;
+                
+                
+                img{
+                    width: 55px;
+                    height: 55px;
+                    margin-right: 25px;
+                        
+                }
+                
+
+                .textStack{
+                    
+                    
+
+                    h5{
+                        font-family: "DM Sans";
+                        font-size: 22px;
+                        font-weight: bold;
+                        line-height: 33px;
+                        font-style: normal;
+                        text-align: left;
+                        color: #191919;
+
+                    }
+
+                    p{
+                        font-family: "Inter";
+                        font-size: 16px;
+                        font-weight: normal;
+                        line-height: 28px;
+                        font-style: normal;
+                        text-align: left;
+                        letter-spacing: -10px;
+                        color: rgba(25,25,25,0.7 );
+                        
+
+                    }
+                }
+            }
+
+        }
+
+        .rightSection{
+        width: 1057px;
+        height: 584px;
+        
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        
+            
+
+            img{
+                
+                margin-bottom: 98px;
+                position: absolute;
+                left: 110px; /* Adjust the left property to move the image to the right */
+                top: 3%;
+                width: 84%;
+                height: 80%;
+                
+            }
+
+            .blueBox{
+                position: absolute;
+                top: 32%;
+                background-color: #F0EFE9;
+                z-index: -1; /* Set a negative z-index to place it behind the image */  
+                overflow: visible;
+                width: 884px;
+                height: 398px;
+                
+                
+            }
+
+
+        }
+    }
+}
