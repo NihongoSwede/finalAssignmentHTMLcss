@@ -6,6 +6,7 @@ html, body{
     font-family: 'Inter', sans-serif;
     font-size: 15;
     font-weight: 400;
+    
 }
 
 .btn-yellow{
@@ -132,31 +133,70 @@ html, body{
     }
 }
 
-// .btn-black i {
-//     margin-left: 5px;
-//     font-size: 1em;
-//     opacity: 1;
-//     height: 17px;
-    
-//     /***** På denna del är det som ikonen ändras *****/
 
-// }
+.all-reviews-btn {
+    background-color: #191919;
+    border: solid 1px #191919;
+    color: white;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: normal;
+      
 
-// .btn-black:hover {
-//     background-color: #F9D783;
-//     border: 1px solid;
-//     color:  #191919;
 
-//     // i{
-//     //     text-decoration: none;
-//     // }
-    
-    
-// }
 
-// .btn-black:hover .fa-arrow-up-right::before {
-//     text-decoration: none !important;
-// }
+    i {
+        margin-left: 5px;
+        font-size: 1em;
+        opacity: 1;
+        
+    }
+    &:hover {
+        background-color: #191919;
+        border: 1px solid white;
+        color:  white;
+        text-decoration: none;
+
+        span {
+            text-decoration: underline;
+        }
+    }
+}
+
+.btn-black-meet-team {
+    background-color: #F9D783;
+    border: solid 1px #191919;
+    color: #191919;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: normal;
+     
+
+
+
+    i {
+        margin-left: 5px;
+        font-size: 1em;
+        opacity: 1;
+        
+    }
+    &:hover {
+        background-color: #191919;
+        border: 1px solid white;
+        color:  white;
+        text-decoration: none;
+
+        span {
+            text-decoration: underline;
+        }
+    }
+}
 
 
 header{
@@ -778,7 +818,7 @@ header{
         
         .top-global{
             margin-top: 50px;
-            margin-bottom: 75px;
+            margin-bottom: 65px;
             
             h3{
                 font-family: "Inter";
@@ -810,8 +850,7 @@ header{
             
             .box-container{
                 img{
-                    width: 540px;
-                    height: 250px;
+                    width: 100%;
                     margin-bottom: 30px;
                 }
 
@@ -867,3 +906,255 @@ header{
         }
     }
 }
+
+.meet-the-team{
+    background-color: #EDCF87;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+       
+       
+       
+        h4{
+            margin-bottom: 18px;
+            margin-top: 121px;
+            font-family: "Inter";
+            font-size: 18px;
+            font-weight: 500;           
+            font-style: normal;
+            text-align: left;
+            color: #f94d1c;
+            
+    
+           }
+
+
+        .top-header-button{
+            display: flex;
+            justify-content: space-between;
+            align-items: censter;
+            justify-content: space-between;
+            margin-bottom: 85px;
+        
+          
+           
+           ///Lösningen på problemet blir att göra en kod innanför koden, den vita delen som kommer sen blir en ny section
+           
+           
+
+           h3{
+            font-family: "DM Sans";
+            font-size: 35px;
+            font-weight: bold;
+            font-style: normal;
+            color: #191919; 
+        
+            
+
+           }
+
+           a{
+            
+            
+            
+            
+            
+
+            span{
+                
+                
+
+            }
+
+           }
+       }
+
+       .team-showcase{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 30px;
+           
+           .employee-box{
+            
+            
+            .IMGSHOW{
+                
+                width: 254px;
+                height: 320px;
+                margin-bottom: 28px;
+            
+
+               }
+
+               h4{
+
+                font-family: "DM Sans";
+                font-size: 22px;
+                font-weight: bold;
+                font-style: normal;
+                color: #191919;
+               }
+
+               p{
+                font-family: "Inter";
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 28px;
+                font-style: normal;
+                color: rgba(25,25,25,0.7 );
+
+               }
+           }
+        }
+    .imgpart{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 32px;
+        
+    }    
+    }
+}
+
+.testimonials{
+    background-color: #EDCF87;
+    padding: 5rem;
+    
+   .white-box{
+    background-color: white;
+    
+    padding: 110px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+
+
+    .container{
+        
+        .topTest{
+            font-family: "Inter";
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            font-style: normal;
+            text-align: center;
+            color: #f94d1c;
+    
+        }
+    
+        h3{
+            text-align: center;
+            margin-bottom: 89px;
+            font-family: "DM Sans";
+            font-size: 45px;
+            font-weight: bold;
+            font-style: normal;
+            text-align: center;
+            color: #191919;
+    
+        }
+    
+        .testimonials-stack{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 94px;
+            
+    
+            .testimonials-column{
+                
+                
+                img{
+    
+                }
+    
+                p{
+                    font-family: "Inter";
+                    font-size: 15px;
+                    font-weight: normal;
+                    line-height: 34px;
+                    font-style: italic;
+                    text-align: left;
+                    color: #191919;
+    
+                }
+    
+                .text-img-stack{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    flex-direction: row;
+                   
+                    
+                    
+                    img{
+                        width: 70px;
+                        height: 70px;
+    
+                    }
+    
+                    .text-stack{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: center;
+                        
+                        
+                        
+                        h4{
+                            font-family: "DM Sans";
+                            font-size: 22px;
+                            font-weight: bold;
+                            font-style: normal;
+                            color: #191919;
+                            margin: 0;
+                            
+    
+                        }
+    
+                        .business{
+                            font-family: "Inter";
+                            font-size: 16px;
+                            font-weight: normal;
+                            line-height: 28px;
+                            font-style: normal;
+                            text-align: left;
+
+                            color: #f94d1c;
+                            
+    
+                        }
+                    }
+                }
+        
+            }
+    
+            .bottom-section{
+                grid-template-columns: 1fr;
+    
+                a{
+                    
+                    
+                    
+    
+                    span{
+    
+                    }
+    
+                    i{
+    
+                    }
+                }
+            }
+        }
+                
+             
+       }  
+   } 
+    
+
+   
+}
+

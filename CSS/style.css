@@ -117,6 +117,58 @@ html, body {
   text-decoration: underline;
 }
 
+.all-reviews-btn {
+  background-color: #191919;
+  border: solid 1px #191919;
+  color: white;
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: normal;
+}
+.all-reviews-btn i {
+  margin-left: 5px;
+  font-size: 1em;
+  opacity: 1;
+}
+.all-reviews-btn:hover {
+  background-color: #191919;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+.all-reviews-btn:hover span {
+  text-decoration: underline;
+}
+
+.btn-black-meet-team {
+  background-color: #F9D783;
+  border: solid 1px #191919;
+  color: #191919;
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: normal;
+}
+.btn-black-meet-team i {
+  margin-left: 5px;
+  font-size: 1em;
+  opacity: 1;
+}
+.btn-black-meet-team:hover {
+  background-color: #191919;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+.btn-black-meet-team:hover span {
+  text-decoration: underline;
+}
+
 header {
   background-color: #F0EFE9;
   display: flex;
@@ -564,7 +616,7 @@ header .container .btn-login {
 }
 .global-projects .container .top-global {
   margin-top: 50px;
-  margin-bottom: 75px;
+  margin-bottom: 65px;
 }
 .global-projects .container .top-global h3 {
   font-family: "Inter";
@@ -590,8 +642,7 @@ header .container .btn-login {
   margin-bottom: 20px;
 }
 .global-projects .container .global-projects-box .box-container img {
-  width: 540px;
-  height: 250px;
+  width: 100%;
   margin-bottom: 30px;
 }
 .global-projects .container .global-projects-box .box-container h4 {
@@ -632,4 +683,148 @@ header .container .btn-login {
 }
 .global-projects .container .global-projects-box .box-container .linkB:hover span {
   text-decoration: underline;
+}
+
+.meet-the-team {
+  background-color: #EDCF87;
+}
+.meet-the-team .container {
+  display: flex;
+  flex-direction: column;
+}
+.meet-the-team .container h4 {
+  margin-bottom: 18px;
+  margin-top: 121px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+}
+.meet-the-team .container .top-header-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: censter;
+  justify-content: space-between;
+  margin-bottom: 85px;
+}
+.meet-the-team .container .top-header-button h3 {
+  font-family: "DM Sans";
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  color: #191919;
+}
+.meet-the-team .container .team-showcase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+.meet-the-team .container .team-showcase .employee-box .IMGSHOW {
+  width: 254px;
+  height: 320px;
+  margin-bottom: 28px;
+}
+.meet-the-team .container .team-showcase .employee-box h4 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  color: #191919;
+}
+.meet-the-team .container .team-showcase .employee-box p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  font-style: normal;
+  color: rgba(25, 25, 25, 0.7);
+}
+.meet-the-team .container .imgpart {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 32px;
+}
+
+.testimonials {
+  background-color: #EDCF87;
+  padding: 5rem;
+}
+.testimonials .white-box {
+  background-color: white;
+  padding: 110px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.testimonials .white-box .container .topTest {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  text-align: center;
+  color: #f94d1c;
+}
+.testimonials .white-box .container h3 {
+  text-align: center;
+  margin-bottom: 89px;
+  font-family: "DM Sans";
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #191919;
+}
+.testimonials .white-box .container .testimonials-stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 94px;
+}
+.testimonials .white-box .container .testimonials-stack .testimonials-column p {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 34px;
+  font-style: italic;
+  text-align: left;
+  color: #191919;
+}
+.testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+}
+.testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack img {
+  width: 70px;
+  height: 70px;
+}
+.testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack .text-stack {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack .text-stack h4 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  color: #191919;
+  margin: 0;
+}
+.testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack .text-stack .business {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+}
+.testimonials .white-box .container .testimonials-stack .bottom-section {
+  grid-template-columns: 1fr;
 }
