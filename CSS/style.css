@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
 html, body {
-  color: #191919;
   font-family: "Inter", sans-serif;
-  font-size: 15;
-  font-weight: 400;
 }
 
 .btn-yellow {
@@ -848,7 +845,7 @@ header .container .btn-login {
 }
 .testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack .text-stack .business {
   font-family: "Inter";
-  font-size: 14px;
+  font-size: 15px;
   font-weight: normal;
   line-height: 28px;
   font-style: normal;
@@ -897,7 +894,7 @@ header .container .btn-login {
   top: 10px;
   left: 10px;
 }
-.articles-news .container .article-showcase .article-stack .img-yellow-stack .yellow-box .date {
+.articles-news .container .article-showcase .article-stack .img-yellow-stack .yellow-box h5 {
   margin-bottom: 0;
   font-family: "DM Sans";
   font-size: 15px;
@@ -917,31 +914,28 @@ header .container .btn-login {
   margin-bottom: 5px;
   line-height: 1;
 }
-.articles-news .container .article-showcase .article-stack .img-yellow-stack .typeArt {
+.articles-news .container .article-showcase .article-stack .img-yellow-stack p {
   font-family: "Inter";
   font-size: 16px;
   font-weight: normal;
-  line-height: 26px;
   font-style: normal;
   text-align: left;
   color: #6A6C71;
   opacity: 1;
 }
-.articles-news .container .article-showcase .article-stack .img-yellow-stack h3 {
+.articles-news .container .article-showcase .article-stack .img-yellow-stack .newsInfo {
   font-family: "DM Sans";
   font-size: 19px;
   font-weight: bold;
   font-style: normal;
   color: #191919;
 }
-.articles-news .container .article-showcase .article-stack .img-yellow-stack .text {
+.articles-news .container .article-showcase .article-stack .img-yellow-stack p {
   font-family: "Inter";
   font-size: 16px;
   font-weight: normal;
-  line-height: 28px;
   font-style: normal;
   color: rgba(25, 25, 25, 0.7);
-  margin-top: 20px;
 }
 .articles-news .container .img-article-dots-container {
   display: flex;

@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap');
 
 html, body{
-    color: #191919;
+    
     font-family: 'Inter', sans-serif;
-    font-size: 15;
-    font-weight: 400;
+    
     
 }
 
@@ -1151,7 +1150,7 @@ header{
     
                         .business{
                             font-family: "Inter";
-                            font-size: 14px;
+                            font-size: 15px;
                             font-weight: normal;
                             line-height: 28px;
                             font-style: normal;
@@ -1269,7 +1268,7 @@ header{
                         
                         
 
-                        .date{
+                        h5{
                         margin-bottom: 0;
                         font-family: "DM Sans";
                         font-size: 15px;
@@ -1294,17 +1293,18 @@ header{
                         
                         
                         
+                        
     
                         }
 
                         
                     }
     
-                .typeArt{
+                p{
                     font-family: "Inter";
                     font-size: 16px;
                     font-weight: normal;
-                    line-height: 26px;
+                    
                     font-style: normal;
                     text-align: left;
                     color: #6A6C71;
@@ -1314,10 +1314,11 @@ header{
     
                 }
     
-                h3{
+                .newsInfo{
                     font-family: "DM Sans";
                     font-size: 19px;
                     font-weight: bold;
+                   
         
                     font-style: normal;
                     
@@ -1325,14 +1326,15 @@ header{
     
                 }
     
-                .text{
+                p{
                     font-family: "Inter";
                     font-size: 16px;
                     font-weight: normal;
-                    line-height: 28px;
+                    
                     font-style: normal;
+                    
                     color: rgba(25,25,25,0.7 );
-                    margin-top: 20px;
+                    
     
                 }
 
