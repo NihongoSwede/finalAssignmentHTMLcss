@@ -198,6 +198,38 @@ html, body{
     }
 }
 
+.trn-btn-art-sec {
+    background-color: white;
+    border: solid 1px #191919;
+    color: #191919;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: normal;
+     
+
+
+
+    i {
+        margin-left: 5px;
+        font-size: 1em;
+        opacity: 1;
+        
+    }
+    &:hover {
+        background-color: #191919;
+        border: 1px solid white;
+        color:  white;
+        text-decoration: none;
+
+        span {
+            text-decoration: underline;
+        }
+    }
+}
+
 
 header{
 
@@ -1022,16 +1054,16 @@ header{
 .testimonials{
     background-color: #EDCF87;
     padding: 5rem;
-    
+    display: flex;
+    justify-content: center;
+
    .white-box{
     background-color: white;
+    padding: 60px;
+    width: 80%;
+    margin-bottom: 55px;
     
-    padding: 110px;
-    margin-left: 20%;
-    margin-right: 20%;
     
-
-
     .container{
         
         .topTest{
@@ -1042,6 +1074,7 @@ header{
             font-style: normal;
             text-align: center;
             color: #f94d1c;
+            margin-top: 60px;
     
         }
     
@@ -1083,15 +1116,16 @@ header{
     
                 .text-img-stack{
                     display: flex;
-                    justify-content: start;
+                    
                     align-items: center;
-                    flex-direction: row;
+                    
                    
                     
                     
                     img{
                         width: 70px;
                         height: 70px;
+                        margin-right: 5px;
     
                     }
     
@@ -1099,7 +1133,8 @@ header{
                         display: flex;
                         justify-content: center;
                         flex-direction: column;
-                        align-items: center;
+                        align-items: start;
+                        margin-top: 20px;
                         
                         
                         
@@ -1132,7 +1167,10 @@ header{
             }
     
             .bottom-section{
-                grid-template-columns: 1fr;
+                display: flex;
+                justify-content: center;
+                margin-top: 80px;
+                
     
                 a{
                     
@@ -1156,5 +1194,163 @@ header{
     
 
    
+}
+
+.articles-news{
+    
+    
+
+    .container{
+        
+        
+        
+        .article-header{
+            margin-top: 120px;
+            font-family: "Inter";
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            font-style: normal;
+            color: #f94d1c;
+
+        }
+
+        .top-art-head{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+           
+            
+            h3{
+
+            }
+
+            a{
+                
+
+            }
+            
+        }
+    
+        .article-showcase{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+            
+            
+            
+            
+            
+            .article-stack{
+                position: relative;
+                
+                
+                .img-yellow-stack{
+                    
+                    
+                    img{
+                        max-width: 100%; /* Adjust this as needed */
+                        height: auto; /* Maintain aspect ratio */
+                        margin-bottom: 28px;
+
+                    }
+                    
+    
+                    .yellow-box{
+                        background: #F9D783;
+                        width: 40px;
+                        height: 45px;
+                        position: absolute;
+                        top: 10px;
+                        left: 10px;
+                        
+                        
+                        
+
+                        .date{
+                        margin-bottom: 0;
+                        font-family: "DM Sans";
+                        font-size: 15px;
+                        font-weight: bold;
+                        font-style: normal;
+                        color: #191919;
+                        text-align: center;
+                        padding-top: 10px;  
+    
+                        }
+    
+                        p{
+                        
+                        font-family: "Inter";
+                        font-size: 10px;
+                        font-weight: normal;
+                        font-style: normal;
+                        color: rgba(25,25,25,0.7 );
+                        text-align: center;
+                        margin-bottom: 5px;
+                        line-height: 1;
+                        
+                        
+                        
+    
+                        }
+
+                        
+                    }
+    
+                .typeArt{
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 26px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #6A6C71;
+                    opacity: 1;
+                    
+                    
+    
+                }
+    
+                h3{
+                    font-family: "DM Sans";
+                    font-size: 19px;
+                    font-weight: bold;
+        
+                    font-style: normal;
+                    
+                    color: #191919;
+    
+                }
+    
+                .text{
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 28px;
+                    font-style: normal;
+                    color: rgba(25,25,25,0.7 );
+                    margin-top: 20px;
+    
+                }
+
+                
+                }
+            }
+        }
+    
+        .img-article-dots-container {
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Optional: Align vertically in the center */
+            /* Add any other styles you need for the container */
+            margin-top: 60px;
+            margin-bottom: 90px;
+        }    
+
+
+    }
+
 }
 

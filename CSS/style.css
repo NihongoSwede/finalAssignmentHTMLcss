@@ -169,6 +169,32 @@ html, body {
   text-decoration: underline;
 }
 
+.trn-btn-art-sec {
+  background-color: white;
+  border: solid 1px #191919;
+  color: #191919;
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: normal;
+}
+.trn-btn-art-sec i {
+  margin-left: 5px;
+  font-size: 1em;
+  opacity: 1;
+}
+.trn-btn-art-sec:hover {
+  background-color: #191919;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+.trn-btn-art-sec:hover span {
+  text-decoration: underline;
+}
+
 header {
   background-color: #F0EFE9;
   display: flex;
@@ -752,12 +778,14 @@ header .container .btn-login {
 .testimonials {
   background-color: #EDCF87;
   padding: 5rem;
+  display: flex;
+  justify-content: center;
 }
 .testimonials .white-box {
   background-color: white;
-  padding: 110px;
-  margin-left: 20%;
-  margin-right: 20%;
+  padding: 60px;
+  width: 80%;
+  margin-bottom: 55px;
 }
 .testimonials .white-box .container .topTest {
   font-family: "Inter";
@@ -767,6 +795,7 @@ header .container .btn-login {
   font-style: normal;
   text-align: center;
   color: #f94d1c;
+  margin-top: 60px;
 }
 .testimonials .white-box .container h3 {
   text-align: center;
@@ -794,19 +823,19 @@ header .container .btn-login {
 }
 .testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack {
   display: flex;
-  justify-content: start;
   align-items: center;
-  flex-direction: row;
 }
 .testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack img {
   width: 70px;
   height: 70px;
+  margin-right: 5px;
 }
 .testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack .text-stack {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
+  margin-top: 20px;
 }
 .testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack .text-stack h4 {
   font-family: "DM Sans";
@@ -826,5 +855,97 @@ header .container .btn-login {
   color: #f94d1c;
 }
 .testimonials .white-box .container .testimonials-stack .bottom-section {
-  grid-template-columns: 1fr;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.articles-news .container .article-header {
+  margin-top: 120px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  color: #f94d1c;
+}
+.articles-news .container .top-art-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.articles-news .container .article-showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.articles-news .container .article-showcase .article-stack {
+  position: relative;
+}
+.articles-news .container .article-showcase .article-stack .img-yellow-stack img {
+  max-width: 100%; /* Adjust this as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 28px;
+}
+.articles-news .container .article-showcase .article-stack .img-yellow-stack .yellow-box {
+  background: #F9D783;
+  width: 40px;
+  height: 45px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.articles-news .container .article-showcase .article-stack .img-yellow-stack .yellow-box .date {
+  margin-bottom: 0;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  color: #191919;
+  text-align: center;
+  padding-top: 10px;
+}
+.articles-news .container .article-showcase .article-stack .img-yellow-stack .yellow-box p {
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(25, 25, 25, 0.7);
+  text-align: center;
+  margin-bottom: 5px;
+  line-height: 1;
+}
+.articles-news .container .article-showcase .article-stack .img-yellow-stack .typeArt {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  font-style: normal;
+  text-align: left;
+  color: #6A6C71;
+  opacity: 1;
+}
+.articles-news .container .article-showcase .article-stack .img-yellow-stack h3 {
+  font-family: "DM Sans";
+  font-size: 19px;
+  font-weight: bold;
+  font-style: normal;
+  color: #191919;
+}
+.articles-news .container .article-showcase .article-stack .img-yellow-stack .text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  color: rgba(25, 25, 25, 0.7);
+  margin-top: 20px;
+}
+.articles-news .container .img-article-dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Optional: Align vertically in the center */
+  /* Add any other styles you need for the container */
+  margin-top: 60px;
+  margin-bottom: 90px;
 }
