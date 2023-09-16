@@ -728,7 +728,7 @@ header .container .btn-login {
 .meet-the-team .container .top-header-button {
   display: flex;
   justify-content: space-between;
-  align-items: censter;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 85px;
 }

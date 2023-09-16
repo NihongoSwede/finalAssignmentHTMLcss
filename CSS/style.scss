@@ -965,7 +965,7 @@ header{
         .top-header-button{
             display: flex;
             justify-content: space-between;
-            align-items: censter;
+            align-items: center;
             justify-content: space-between;
             margin-bottom: 85px;
         
@@ -1041,6 +1041,7 @@ header{
                }
            }
         }
+
     .imgpart{
         text-align: center;
         margin-top: 30px;
@@ -1197,6 +1198,8 @@ header{
 }
 
 .articles-news{
+
+    //Hur skriver man över Bootstrap, alternativt hur kan jag ändra småsaker utan att behöva ändra bootstrap?
     
     
 
