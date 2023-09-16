@@ -1250,7 +1250,7 @@ header{
                 
                 
                 .img-yellow-stack{
-                    
+                     
                     
                     img{
                         max-width: 100%; /* Adjust this as needed */
@@ -1302,47 +1302,52 @@ header{
 
                         
                     }
-    
-                p{
-                    font-family: "Inter";
-                    font-size: 16px;
-                    font-weight: normal;
-                    
-                    font-style: normal;
-                    text-align: left;
-                    color: #6A6C71;
-                    opacity: 1;
-                    
-                    
-    
-                }
-    
-                .newsInfo{
-                    font-family: "DM Sans";
-                    font-size: 19px;
-                    font-weight: bold;
-                   
-        
-                    font-style: normal;
-                    
-                    color: #191919;
-    
-                }
-    
-                p{
-                    font-family: "Inter";
-                    font-size: 16px;
-                    font-weight: normal;
-                    
-                    font-style: normal;
-                    
-                    color: rgba(25,25,25,0.7 );
-                    
-    
-                }
+
 
                 
+            
                 }
+                .experiment{
+                    
+
+                    p{
+                        font-family: "Inter";
+                        font-size: 16px;
+                        font-weight: normal;
+                        line-height: 26px;
+                        font-style: normal;
+                        text-align: left;
+                        color: #6a6c71;
+                        
+                        
+        
+                    }
+        
+                    .newsInfo{
+                        font-family: "DM Sans";
+                        font-size: 22px;
+                        font-weight: bold;
+                        line-height: 33px;
+                        font-style: normal;
+                        text-align: left;
+                        color: #191919;
+        
+                    }
+        
+                    p{
+                        font-family: "Inter";
+                        font-size: 16px;
+                        font-weight: normal;
+                        line-height: 28px;
+                        font-style: normal;
+                        text-align: left;
+                        color: rgba(25,25,25,0.7 );
+                        
+        
+                    }
+    
+
+                }    
             }
         }
     

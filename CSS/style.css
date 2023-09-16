@@ -914,27 +914,31 @@ header .container .btn-login {
   margin-bottom: 5px;
   line-height: 1;
 }
-.articles-news .container .article-showcase .article-stack .img-yellow-stack p {
+.articles-news .container .article-showcase .article-stack .experiment p {
   font-family: "Inter";
   font-size: 16px;
   font-weight: normal;
+  line-height: 26px;
   font-style: normal;
   text-align: left;
-  color: #6A6C71;
-  opacity: 1;
+  color: #6a6c71;
 }
-.articles-news .container .article-showcase .article-stack .img-yellow-stack .newsInfo {
+.articles-news .container .article-showcase .article-stack .experiment .newsInfo {
   font-family: "DM Sans";
-  font-size: 19px;
+  font-size: 22px;
   font-weight: bold;
+  line-height: 33px;
   font-style: normal;
+  text-align: left;
   color: #191919;
 }
-.articles-news .container .article-showcase .article-stack .img-yellow-stack p {
+.articles-news .container .article-showcase .article-stack .experiment p {
   font-family: "Inter";
   font-size: 16px;
   font-weight: normal;
+  line-height: 28px;
   font-style: normal;
+  text-align: left;
   color: rgba(25, 25, 25, 0.7);
 }
 .articles-news .container .img-article-dots-container {
