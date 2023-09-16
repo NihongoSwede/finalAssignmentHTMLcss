@@ -1100,6 +1100,7 @@ header{
                 
                 
                 img{
+                    margin-bottom: 20px;
     
                 }
     
@@ -1133,8 +1134,7 @@ header{
                         display: flex;
                         justify-content: center;
                         flex-direction: column;
-                        align-items: start;
-                        margin-top: 20px;
+                        
                         
                         
                         
@@ -1151,7 +1151,7 @@ header{
     
                         .business{
                             font-family: "Inter";
-                            font-size: 16px;
+                            font-size: 14px;
                             font-weight: normal;
                             line-height: 28px;
                             font-style: normal;
@@ -1169,7 +1169,8 @@ header{
             .bottom-section{
                 display: flex;
                 justify-content: center;
-                margin-top: 80px;
+                margin-top: 60px;
+                margin-bottom: 60px;
                 
     
                 a{

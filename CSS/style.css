@@ -812,6 +812,9 @@ header .container .btn-login {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 94px;
 }
+.testimonials .white-box .container .testimonials-stack .testimonials-column img {
+  margin-bottom: 20px;
+}
 .testimonials .white-box .container .testimonials-stack .testimonials-column p {
   font-family: "Inter";
   font-size: 15px;
@@ -834,8 +837,6 @@ header .container .btn-login {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: start;
-  margin-top: 20px;
 }
 .testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack .text-stack h4 {
   font-family: "DM Sans";
@@ -847,7 +848,7 @@ header .container .btn-login {
 }
 .testimonials .white-box .container .testimonials-stack .testimonials-column .text-img-stack .text-stack .business {
   font-family: "Inter";
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 28px;
   font-style: normal;
@@ -857,7 +858,8 @@ header .container .btn-login {
 .testimonials .white-box .container .testimonials-stack .bottom-section {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .articles-news .container .article-header {
   margin-top: 120px;
