@@ -114,6 +114,32 @@ html, body {
   text-decoration: underline;
 }
 
+.btn-subscribe {
+  background-color: #F9D783;
+  border: solid 1px #191919;
+  color: #191919;
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: normal;
+}
+.btn-subscribe i {
+  margin-left: 5px;
+  font-size: 1em;
+  opacity: 1;
+}
+.btn-subscribe:hover {
+  background-color: #191919;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+.btn-subscribe:hover span {
+  text-decoration: underline;
+}
+
 .all-reviews-btn {
   background-color: #191919;
   border: solid 1px #191919;
@@ -305,6 +331,7 @@ header .container .btn-login {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .showcase .container .content h1 {
   font-family: "DM Sans", sans-serif;
@@ -355,6 +382,11 @@ header .container .btn-login {
   .showcase img {
     display: none;
   }
+}
+.showcase .stripe-part1 {
+  position: absolute;
+  top: 69%;
+  right: 47%;
 }
 
 .company-showcase .container .clients {
@@ -422,12 +454,42 @@ header .container .btn-login {
   padding-top: 120px;
   padding-bottom: 120px;
   justify-content: center;
+  position: relative;
 }
 .aboutCompany .container img {
   width: 533px;
   height: 615;
   margin-left: 50px;
   margin-right: 170px;
+}
+.aboutCompany .container .text-box-blue {
+  position: absolute;
+  padding: 18px;
+  background-color: #BEEBFF;
+  top: 58%;
+  left: -2%;
+  height: 180px;
+  width: 400px;
+}
+.aboutCompany .container .text-box-blue h4 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  margin-top: 27px;
+  margin-left: 18px;
+}
+.aboutCompany .container .text-box-blue h4 span {
+  font-size: 16px;
+  color: #f94d1c;
+}
+.aboutCompany .container .text-box-blue p {
+  margin-left: 18px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  color: #191919;
 }
 .aboutCompany .container .aboutCompanyContent {
   justify-content: space-between;
@@ -484,6 +546,7 @@ header .container .btn-login {
   display: flex;
   align-content: center;
   background-color: #F0EFE9;
+  position: relative;
 }
 .companyServices .container .content-header {
   padding-top: 120px;
@@ -551,6 +614,11 @@ header .container .btn-login {
   display: flex;
   justify-content: center;
   margin-bottom: 119px;
+}
+.companyServices .stripes-right {
+  position: absolute;
+  top: 73%;
+  left: 40%;
 }
 
 .whyChooseUs .container {
@@ -781,7 +849,7 @@ header .container .btn-login {
 .testimonials .white-box {
   background-color: white;
   padding: 60px;
-  width: 80%;
+  width: 90%;
   margin-bottom: 55px;
 }
 .testimonials .white-box .container .topTest {
@@ -948,4 +1016,42 @@ header .container .btn-login {
   /* Add any other styles you need for the container */
   margin-top: 60px;
   margin-bottom: 90px;
+}
+
+.SignupForm {
+  background-color: #F0EFE9;
+  padding: 60px;
+  background-image: url(/IMG/Element\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: 100% 80%;
+}
+.SignupForm .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 28px;
+  position: relative;
+}
+.SignupForm .container .H3-part h3 {
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  color: #191919;
+  margin-bottom: 0;
+}
+.SignupForm .container .placeholder-sign {
+  display: flex;
+  align-items: center; /* Center horizontally */
+  justify-content: center;
+  gap: 5px;
+}
+.SignupForm .container .placeholder-sign form {
+  border: none;
+}
+.SignupForm .container .placeholder-sign form input {
+  padding: 10px 24px;
+  border-radius: 20px;
+  border: none;
 }

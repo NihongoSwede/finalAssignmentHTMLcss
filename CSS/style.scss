@@ -132,6 +132,38 @@ html, body{
     }
 }
 
+.btn-subscribe {
+    background-color: #F9D783;
+    border: solid 1px #191919;
+    color: #191919;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: normal;
+     
+
+
+
+    i {
+        margin-left: 5px;
+        font-size: 1em;
+        opacity: 1;
+        
+    }
+    &:hover {
+        background-color: #191919;
+        border: 1px solid white;
+        color:  white;
+        text-decoration: none;
+
+        span {
+            text-decoration: underline;
+        }
+    }
+}
+
 
 .all-reviews-btn {
     background-color: #191919;
@@ -370,10 +402,12 @@ header{
 .showcase{
     background-color: #F0EFE9;
     
+    
     .container{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
 
         .content{
                 
@@ -434,6 +468,12 @@ header{
         }
 
         
+    }
+
+    .stripe-part1{
+        position: absolute;
+        top: 69%;
+        right: 47%;
     }
 }
 
@@ -536,6 +576,7 @@ header{
         padding-top: 120px;
         padding-bottom: 120px;
         justify-content: center;
+        position: relative;
 
         img{
             width: 533px;
@@ -543,6 +584,45 @@ header{
             margin-left: 50px;
             margin-right: 170px;
         }
+
+        .text-box-blue{
+            position: absolute;
+            padding: 18px;
+            background-color: #BEEBFF;
+            top: 58%;
+            left: -2%;
+            height: 180px;
+            width: 400px;
+
+            h4{
+                font-size: 20px;
+                font-weight: bold;
+                font-style: normal;
+                text-align: left;
+                margin-top: 27px;
+                margin-left: 18px;
+                
+
+
+                span{
+                    font-size: 16px;
+                    color: #f94d1c;
+
+                }
+            
+            }
+
+            p{
+                margin-left: 18px;
+                font-family: "Inter";
+                font-size: 16px;
+                font-weight: 500;
+                font-style: italic;
+                color: #191919;
+            }
+        }
+
+
 
         .aboutCompanyContent{
             justify-content: space-between;
@@ -623,6 +703,7 @@ header{
     display: flex;
     align-content: center;
     background-color: #F0EFE9;
+    position: relative;
     
     .container{
      
@@ -718,8 +799,15 @@ header{
             justify-content: center;
             margin-bottom: 119px;
         }
+
+        
+
     }   
-    
+    .stripes-right{
+        position: absolute;
+        top: 73%;
+        left: 40%;
+    }    
 
 }
 
@@ -1060,7 +1148,7 @@ header{
    .white-box{
     background-color: white;
     padding: 60px;
-    width: 80%;
+    width: 90%;
     margin-bottom: 55px;
     
     
@@ -1365,3 +1453,85 @@ header{
 
 }
 
+.SignupForm{
+    background-color: #F0EFE9;
+    padding: 60px;
+    // ide ifrån Emil Vetainen
+    background-image: url(/IMG/Element\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 100% 80%;
+    
+
+    
+    
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 28px;
+        position: relative;
+        
+        
+        
+
+        .H3-part{
+            
+            
+            
+            
+            h3{
+                font-family: "DM Sans";
+                font-size: 40px;
+                font-weight: bold;
+                font-style: normal;
+                color: #191919;
+                margin-bottom: 0;
+                
+
+            }
+        }
+
+        .placeholder-sign{
+            display: flex;
+            
+            align-items: center; /* Center horizontally */
+            justify-content: center;
+            gap: 5px;
+            
+            
+            
+
+            
+            form{
+
+                border: none;
+                
+                
+
+                input{
+                    padding: 10px 24px;
+                    border-radius: 20px;
+                    border: none;
+                    
+                    
+                    
+                    
+                }
+               
+                
+
+            }
+            
+            a{
+                
+
+            }
+            
+
+        }
+
+    }
+    
+}
