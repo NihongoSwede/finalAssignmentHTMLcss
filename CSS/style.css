@@ -554,6 +554,9 @@ header .container .btn-login {
   align-content: center;
   background-color: #F0EFE9;
   position: relative;
+  background-image: url(/IMG/Stripes/Rectangle\ 607.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
 .companyServices .container .content-header {
   padding-top: 120px;
@@ -1065,16 +1068,16 @@ header .container .btn-login {
 .bottom-section1 {
   background-color: #0E1021;
   padding: 100px;
+  position: relative;
   background-image: url(/IMG/Stripes/Rectangle\ 116\ \(3\).png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
 .bottom-section1 .container {
   display: flex;
-  padding: 0;
 }
 .bottom-section1 .container .picture-text-div {
-  padding-right: 95px;
+  margin-right: 95px;
 }
 .bottom-section1 .container .picture-text-div img {
   margin-bottom: 28px;
@@ -1097,52 +1100,31 @@ header .container .btn-login {
   width: -moz-fit-content;
   width: fit-content;
 }
-.bottom-section1 .container .rightPartsec .secDiv1 {
-  width: -moz-min-content;
-  width: min-content;
-}
-.bottom-section1 .container .rightPartsec .secDiv1 .bottom-h4 h4 {
-  font-family: "DM Sans";
-  font-size: 22px;
-  font-weight: bold;
-  line-height: 33px;
-  font-style: normal;
-  text-align: left;
-  color: #ffffff;
-  margin-bottom: 28px;
-}
-.bottom-section1 .container .rightPartsec .secDiv1 .divStack div a {
-  font-family: "Inter";
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 40px;
-  font-style: normal;
-  text-align: left;
-  color: rgba(255, 255, 255, 0.7);
-}
 .bottom-section1 .container .rightPartsec .secDiv {
   width: -moz-max-content;
   width: max-content;
-  height: auto;
 }
 .bottom-section1 .container .rightPartsec .secDiv .bottom-h4 h4 {
   font-family: "DM Sans";
   font-size: 22px;
   font-weight: bold;
-  line-height: 33px;
   font-style: normal;
   text-align: left;
   color: #ffffff;
   margin-bottom: 28px;
 }
-.bottom-section1 .container .rightPartsec .secDiv .divStack div a {
+.bottom-section1 .container .rightPartsec .secDiv .divStack {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-section1 .container .rightPartsec .secDiv .divStack a {
   font-family: "Inter";
   font-size: 16px;
   font-weight: 500;
-  line-height: 40px;
   font-style: normal;
   text-align: left;
   color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
 }
 
 .final-part {

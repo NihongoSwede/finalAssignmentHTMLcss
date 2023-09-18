@@ -712,9 +712,13 @@ header{
     align-content: center;
     background-color: #F0EFE9;
     position: relative;
+    background-image: url(/IMG/Stripes/Rectangle\ 607.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
     
     .container{
-     
+        
+    
         
 
         .content-header{
@@ -1547,25 +1551,20 @@ header{
 .bottom-section1{
     background-color: #0E1021;
     padding: 100px;
+    position: relative;
     background-image: url(/IMG/Stripes/Rectangle\ 116\ \(3\).png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
     
     
-    
-
-    
-    
-    
-    
     .container{
         display: flex;
-        padding: 0;
         
         
         
         .picture-text-div{
-            padding-right: 95px;
+            margin-right: 95px;
+            
             
             
             
@@ -1597,17 +1596,17 @@ header{
             margin-top: 20px;
             width: fit-content;
             
-            
-            
-            .secDiv1{
-                width: min-content;
+        
+            .secDiv{
+                width: max-content;
+                
+                
                 
                 .bottom-h4{
                     h4{
                         font-family: "DM Sans";
                         font-size: 22px;
                         font-weight: bold;
-                        line-height: 33px;
                         font-style: normal;
                         text-align: left;
                         color: #ffffff;
@@ -1618,67 +1617,28 @@ header{
                 }
 
                 .divStack{
+                    display: flex;
+                    flex-direction: column;
                     
-                    div{
                     
+                    
+                    
+                    
+
+                        
+                        
                         
                         a{
                             font-family: "Inter";
                             font-size: 16px;
                             font-weight: 500;
-                            line-height: 40px;
                             font-style: normal;
                             text-align: left;
                             color: rgba(255,255,255,0.7 );
-                           
-                          
-
+                            margin-bottom: 20px;
                             
                         }
-
-                        
-                    }
-
-                }
-            }
-
-            .secDiv{
-                width: max-content;
-                height: auto;
-                
-                
-                .bottom-h4{
-                    h4{
-                        font-family: "DM Sans";
-                        font-size: 22px;
-                        font-weight: bold;
-                        line-height: 33px;
-                        font-style: normal;
-                        text-align: left;
-                        color: #ffffff;
-                        margin-bottom: 28px;
-                        ///tanke på innehållet, ena boxen tar inte upp lika mycket plats
-                    }
-
-                }
-
-                .divStack{
                     
-                    
-                    
-                    
-                    div{
-                        
-                        a{
-                            font-family: "Inter";
-                            font-size: 16px;
-                            font-weight: 500;
-                            line-height: 40px;
-                            font-style: normal;
-                            text-align: left;
-                            color: rgba(255,255,255,0.7 )
-                        }
-                    }
                     
 
                 }
@@ -1688,7 +1648,8 @@ header{
         }
               
 
-    } 
+    }
+    
 }
 
 .final-part {
