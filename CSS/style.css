@@ -15,7 +15,7 @@ html, body {
 }
 .btn-yellow i {
   margin-left: 5px;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 .btn-yellow:hover {
   background-color: #191919;
@@ -34,7 +34,7 @@ html, body {
 }
 .btn-transparent i {
   margin-left: 5px;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 .btn-transparent:hover {
   background-color: #191919;
@@ -53,7 +53,7 @@ html, body {
 }
 .btn-transparent-mid i {
   margin-left: 5px;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 .btn-transparent-mid:hover {
   background-color: #191919;
@@ -74,7 +74,7 @@ html, body {
 }
 .btn-black i {
   margin-left: 5px;
-  font-size: 0.5em;
+  font-size: 1em;
   opacity: 1;
 }
 .btn-black:hover {
@@ -101,7 +101,7 @@ html, body {
 }
 .btn-black-btm i {
   margin-left: 5px;
-  font-size: 0.5em;
+  font-size: 1em;
   opacity: 1;
 }
 .btn-black-btm:hover {
@@ -326,6 +326,9 @@ header .container .btn-login {
 
 .showcase {
   background-color: #F0EFE9;
+  background-image: url(/IMG/Stripes/Rectangle\ 607\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: -5% 100%;
 }
 .showcase .container {
   display: flex;
@@ -1116,6 +1119,7 @@ header .container .btn-login {
 .bottom-section1 .container .rightPartsec .secDiv .divStack {
   display: flex;
   flex-direction: column;
+  margin-right: 10px;
 }
 .bottom-section1 .container .rightPartsec .secDiv .divStack a {
   font-family: "Inter";

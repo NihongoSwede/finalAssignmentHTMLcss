@@ -19,7 +19,7 @@ html, body{
 
     i {
         margin-left: 5px;
-        font-size: 0.5em;
+        font-size: 1em;
     }
     &:hover{
         background-color: #191919;
@@ -40,7 +40,7 @@ html, body{
 
     i {
         margin-left: 5px;
-        font-size: 0.5em;
+        font-size: 1em;
     }
     &:hover{
         background-color: #191919;
@@ -60,7 +60,7 @@ html, body{
 
     i {
         margin-left: 5px;
-        font-size: 0.5em;
+        font-size: 1em;
     }
     &:hover{
         background-color: #191919;
@@ -84,7 +84,7 @@ html, body{
 
     i {
         margin-left: 5px;
-        font-size: 0.5em;
+        font-size: 1em;
         opacity: 1;
         
     }
@@ -116,7 +116,7 @@ html, body{
 
     i {
         margin-left: 5px;
-        font-size: 0.5em;
+        font-size: 1em;
         opacity: 1;
         
     }
@@ -401,6 +401,9 @@ header{
 
 .showcase{
     background-color: #F0EFE9;
+    background-image: url(/IMG/Stripes/Rectangle\ 607\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: -5% 100%;
     
     
     .container{
@@ -1619,6 +1622,7 @@ header{
                 .divStack{
                     display: flex;
                     flex-direction: column;
+                    margin-right: 10px;
                     
                     
                     
