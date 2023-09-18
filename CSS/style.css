@@ -456,11 +456,18 @@ header .container .btn-login {
   justify-content: center;
   position: relative;
 }
-.aboutCompany .container img {
+.aboutCompany .container .woman {
   width: 533px;
-  height: 615;
+  height: 615px;
   margin-left: 50px;
   margin-right: 170px;
+}
+.aboutCompany .container .stripes-woman {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 27px;
+  top: 160px;
 }
 .aboutCompany .container .text-box-blue {
   position: absolute;
@@ -1053,5 +1060,115 @@ header .container .btn-login {
 .SignupForm .container .placeholder-sign form input {
   padding: 10px 24px;
   border-radius: 20px;
-  border: none;
+  border: 1px solid white;
+}
+.bottom-section1 {
+  background-color: #0E1021;
+  padding: 100px;
+  background-image: url(/IMG/Stripes/Rectangle\ 116\ \(3\).png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.bottom-section1 .container {
+  display: flex;
+  padding: 0;
+}
+.bottom-section1 .container .picture-text-div {
+  padding-right: 95px;
+}
+.bottom-section1 .container .picture-text-div img {
+  margin-bottom: 28px;
+}
+.bottom-section1 .container .picture-text-div p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 100%; /* Adjust this as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+.bottom-section1 .container .rightPartsec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 35px;
+  margin-top: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.bottom-section1 .container .rightPartsec .secDiv1 {
+  width: -moz-min-content;
+  width: min-content;
+}
+.bottom-section1 .container .rightPartsec .secDiv1 .bottom-h4 h4 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+.bottom-section1 .container .rightPartsec .secDiv1 .divStack div a {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 40px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+.bottom-section1 .container .rightPartsec .secDiv {
+  width: -moz-max-content;
+  width: max-content;
+  height: auto;
+}
+.bottom-section1 .container .rightPartsec .secDiv .bottom-h4 h4 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+.bottom-section1 .container .rightPartsec .secDiv .divStack div a {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 40px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.final-part {
+  background-color: #0E1021;
+  padding: 30px;
+  border-top: 1px solid white;
+}
+.final-part .container .footerStack {
+  display: flex;
+  justify-content: space-between;
+}
+.final-part .container .footerStack .textStackcopy p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+}
+.final-part .container .footerStack .socialMediadiv a {
+  color: #ffffff;
+  margin-left: 26px;
+  font-size: 1.2rem;
+}
+.final-part .container .footerStack .socialMediadiv a:hover {
+  color: #666666;
 }

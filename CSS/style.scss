@@ -578,11 +578,19 @@ header{
         justify-content: center;
         position: relative;
 
-        img{
+        .woman{
             width: 533px;
-            height: 615;
+            height: 615px;
             margin-left: 50px;
             margin-right: 170px;
+        }
+
+        .stripes-woman{
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            left: 27px;
+            top: 160px;
         }
 
         .text-box-blue{
@@ -1513,7 +1521,7 @@ header{
                 input{
                     padding: 10px 24px;
                     border-radius: 20px;
-                    border: none;
+                    border: 1px solid white;
                     
                     
                     
@@ -1535,3 +1543,217 @@ header{
     }
     
 }
+
+.bottom-section1{
+    background-color: #0E1021;
+    padding: 100px;
+    background-image: url(/IMG/Stripes/Rectangle\ 116\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    
+    
+    
+
+    
+    
+    
+    
+    .container{
+        display: flex;
+        padding: 0;
+        
+        
+        
+        .picture-text-div{
+            padding-right: 95px;
+            
+            
+            
+
+            img{
+                margin-bottom: 28px;
+                
+
+            }
+
+            p{
+                
+                font-family: "Inter";
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                text-align: left;
+                color: rgba(255,255,255,0.7 );
+                max-width: 100%; /* Adjust this as needed */
+                height: auto; /* Maintain aspect ratio */
+
+            }
+        }
+
+        .rightPartsec{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 35px;
+            margin-top: 20px;
+            width: fit-content;
+            
+            
+            
+            .secDiv1{
+                width: min-content;
+                
+                .bottom-h4{
+                    h4{
+                        font-family: "DM Sans";
+                        font-size: 22px;
+                        font-weight: bold;
+                        line-height: 33px;
+                        font-style: normal;
+                        text-align: left;
+                        color: #ffffff;
+                        margin-bottom: 28px;
+                        ///tanke på innehållet, ena boxen tar inte upp lika mycket plats
+                    }
+
+                }
+
+                .divStack{
+                    
+                    div{
+                    
+                        
+                        a{
+                            font-family: "Inter";
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 40px;
+                            font-style: normal;
+                            text-align: left;
+                            color: rgba(255,255,255,0.7 );
+                           
+                          
+
+                            
+                        }
+
+                        
+                    }
+
+                }
+            }
+
+            .secDiv{
+                width: max-content;
+                height: auto;
+                
+                
+                .bottom-h4{
+                    h4{
+                        font-family: "DM Sans";
+                        font-size: 22px;
+                        font-weight: bold;
+                        line-height: 33px;
+                        font-style: normal;
+                        text-align: left;
+                        color: #ffffff;
+                        margin-bottom: 28px;
+                        ///tanke på innehållet, ena boxen tar inte upp lika mycket plats
+                    }
+
+                }
+
+                .divStack{
+                    
+                    
+                    
+                    
+                    div{
+                        
+                        a{
+                            font-family: "Inter";
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 40px;
+                            font-style: normal;
+                            text-align: left;
+                            color: rgba(255,255,255,0.7 )
+                        }
+                    }
+                    
+
+                }
+            }
+            
+
+        }
+              
+
+    } 
+}
+
+.final-part {
+    background-color: #0E1021;
+    padding: 30px;
+    border-top: 1px solid white;
+    
+
+    .container{
+        
+        
+        .footerStack{
+            display: flex;
+            justify-content: space-between;
+            
+           
+            
+            
+            .textStackcopy{
+                
+                
+                p{
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 26px;
+                    font-style: normal;
+                    text-align: left;
+                    color: rgba(255,255,255,0.7 );
+                    margin-bottom: 0;
+                    
+                }
+            }
+
+            .socialMediadiv{
+                
+                
+                
+                a{
+                    color: #ffffff;
+                    margin-left: 26px;
+                    font-size: 1.2rem;
+
+                    &:hover{
+                        color: #666666; 
+                    }
+                    
+                    
+
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
