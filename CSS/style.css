@@ -326,9 +326,7 @@ header .container .btn-login {
 
 .showcase {
   background-color: #F0EFE9;
-  background-image: url(/IMG/Stripes/Rectangle\ 607\ \(1\).png);
-  background-repeat: no-repeat;
-  background-position: -5% 100%;
+  position: relative;
 }
 .showcase .container {
   display: flex;
@@ -386,10 +384,11 @@ header .container .btn-login {
     display: none;
   }
 }
-.showcase .stripe-part1 {
+.showcase .position-holder {
   position: absolute;
-  top: 69%;
+  top: 70%;
   right: 47%;
+  pointer-events: none;
 }
 
 .company-showcase .container .clients {
@@ -557,9 +556,6 @@ header .container .btn-login {
   align-content: center;
   background-color: #F0EFE9;
   position: relative;
-  background-image: url(/IMG/Stripes/Rectangle\ 607.png);
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
 }
 .companyServices .container .content-header {
   padding-top: 120px;
@@ -631,7 +627,8 @@ header .container .btn-login {
 .companyServices .stripes-right {
   position: absolute;
   top: 73%;
-  left: 40%;
+  left: 50%;
+  pointer-events: none;
 }
 
 .whyChooseUs .container {
@@ -862,7 +859,7 @@ header .container .btn-login {
 .testimonials .white-box {
   background-color: white;
   padding: 60px;
-  width: 90%;
+  max-width: 90%;
   margin-bottom: 55px;
 }
 .testimonials .white-box .container .topTest {
@@ -888,7 +885,7 @@ header .container .btn-login {
 .testimonials .white-box .container .testimonials-stack {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 94px;
+  gap: 85px;
 }
 .testimonials .white-box .container .testimonials-stack .testimonials-column img {
   margin-bottom: 20px;
@@ -1067,14 +1064,12 @@ header .container .btn-login {
   padding: 10px 24px;
   border-radius: 20px;
   border: 1px solid white;
+  outline: none;
 }
 .bottom-section1 {
   background-color: #0E1021;
   padding: 100px;
   position: relative;
-  background-image: url(/IMG/Stripes/Rectangle\ 116\ \(3\).png);
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
 }
 .bottom-section1 .container {
   display: flex;
@@ -1129,6 +1124,12 @@ header .container .btn-login {
   text-align: left;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 20px;
+}
+.bottom-section1 .last-line-part {
+  position: absolute;
+  left: 67%;
+  top: 79%;
+  pointer-events: none;
 }
 
 .final-part {
