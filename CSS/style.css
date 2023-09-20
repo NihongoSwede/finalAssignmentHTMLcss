@@ -401,8 +401,7 @@ header .container .btn-login {
 @media (max-width: 992px) {
   .company-showcase .container .clients {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr auto;
-    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -640,6 +639,12 @@ header .container .btn-login {
   font-style: normal;
   color: #f94d1c;
 }
+@media (max-width: 992px) {
+  .companyServices .container .content-header {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+}
 .companyServices .container h3 {
   font-family: "DM Sans";
   font-size: 45px;
@@ -649,6 +654,12 @@ header .container .btn-login {
   color: #191919;
   padding-bottom: 48px;
 }
+@media (max-width: 992px) {
+  .companyServices .container h3 {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+}
 .companyServices .container .stacks-showcase {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -657,7 +668,7 @@ header .container .btn-login {
 }
 @media (max-width: 992px) {
   .companyServices .container .stacks-showcase {
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 .companyServices .container .stacks-showcase .squares-button {
@@ -713,8 +724,14 @@ header .container .btn-login {
 .whyChooseUs .container {
   display: flex;
   margin-top: 43px;
-  width: 1620px;
-  height: 630.3px;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 992px) {
+  .whyChooseUs .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 .whyChooseUs .container .leftSection h3 {
   font-family: "Inter";
@@ -732,6 +749,11 @@ header .container .btn-login {
   text-align: left;
   color: #191919;
   margin-bottom: 43px;
+}
+@media (max-width: 992px) {
+  .whyChooseUs .container .leftSection h4 {
+    font-size: 30px;
+  }
 }
 .whyChooseUs .container .leftSection .stackIconArg {
   display: flex;
@@ -764,29 +786,48 @@ header .container .btn-login {
   color: rgba(25, 25, 25, 0.7);
 }
 .whyChooseUs .container .rightSection {
-  width: 1057px;
-  height: 584px;
+  width: 100%;
+  height: auto;
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: start;
 }
+@media (max-width: 992px) {
+  .whyChooseUs .container .rightSection {
+    width: 75%;
+    height: auto;
+  }
+}
 .whyChooseUs .container .rightSection img {
-  margin-bottom: 98px;
   position: absolute;
-  left: 110px; /* Adjust the left property to move the image to the right */
+  left: 10%; /* Adjust the left property to move the image to the right */
   top: 3%;
-  width: 84%;
-  height: 80%;
+  width: 90%;
+  height: auto;
+}
+@media (max-width: 992px) {
+  .whyChooseUs .container .rightSection img {
+    width: 55%;
+    position: static;
+    padding-left: 40px;
+    margin-bottom: 40px;
+  }
 }
 .whyChooseUs .container .rightSection .blueBox {
   position: absolute;
   top: 32%;
   background-color: #F0EFE9;
   z-index: -1; /* Set a negative z-index to place it behind the image */
-  overflow: visible;
   width: 884px;
   height: 398px;
+}
+@media (max-width: 992px) {
+  .whyChooseUs .container .rightSection .blueBox {
+    width: 442px;
+    height: 197px;
+    top: 16%;
+  }
 }
 
 .global-projects .container {
@@ -818,18 +859,24 @@ header .container .btn-login {
 .global-projects .container .global-projects-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 25px;
+  gap: 30px;
   margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+  .global-projects .container .global-projects-box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 .global-projects .container .global-projects-box .box-container img {
   width: 100%;
+  height: auto;
   margin-bottom: 30px;
 }
 .global-projects .container .global-projects-box .box-container h4 {
   font-family: "DM Sans";
   font-size: 18px;
   font-weight: bold;
-  line-height: 33px;
   font-style: normal;
   text-align: left;
   color: #191919;
@@ -889,6 +936,11 @@ header .container .btn-login {
   justify-content: space-between;
   margin-bottom: 85px;
 }
+@media (max-width: 992px) {
+  .meet-the-team .container .top-header-button {
+    margin-bottom: 60px;
+  }
+}
 .meet-the-team .container .top-header-button h3 {
   font-family: "DM Sans";
   font-size: 35px;
@@ -897,15 +949,18 @@ header .container .btn-login {
   color: #191919;
 }
 .meet-the-team .container .team-showcase {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
 }
+@media (max-width: 992px) {
+  .meet-the-team .container .team-showcase {
+    grid-template-columns: 2fr 2fr;
+  }
+}
 .meet-the-team .container .team-showcase .employee-box .IMGSHOW {
-  width: 254px;
-  height: 320px;
+  width: 100%;
+  height: auto;
   margin-bottom: 28px;
 }
 .meet-the-team .container .team-showcase .employee-box h4 {
