@@ -1537,13 +1537,27 @@ header{
             align-items: center;
             justify-content: space-between;
             margin-bottom: 30px;
+
+            @media (max-width: 992px){
+                display: block;
+                
+                             
+            }
            
             
             h3{
 
+                @media (max-width: 992px){
+                    margin-bottom: 30px;
+                    
+                                 
+                }
+
             }
 
             a{
+
+                
                 
 
             }
@@ -1554,6 +1568,12 @@ header{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 30px;
+
+            @media (max-width: 992px){
+                grid-template-columns: 1fr;
+                
+                             
+            }
             
             
             
