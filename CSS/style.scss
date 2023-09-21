@@ -1147,6 +1147,14 @@ header{
         .top-global{
             margin-top: 50px;
             margin-bottom: 65px;
+
+            @media (max-width: 992px){
+                padding-top: 40px;
+                
+                
+                
+                             
+            }
             
             h3{
                 font-family: "Inter";
@@ -1184,6 +1192,10 @@ header{
             }
             
             .box-container{
+                display: grid;
+                
+                grid-template-rows: auto 1fr auto;
+                
                 img{
                     width: 100%;
                     height: auto;
@@ -1261,6 +1273,14 @@ header{
             font-style: normal;
             text-align: left;
             color: #f94d1c;
+
+            @media (max-width: 992px){
+                text-align: center;
+                
+                
+                
+                             
+            }
             
     
            }
@@ -1270,11 +1290,14 @@ header{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            justify-content: space-between;
             margin-bottom: 85px;
 
             @media (max-width: 992px){
                 margin-bottom: 60px;
+                display: block;
+                align-items: center;
+                
+                
                 
                              
             }
@@ -1291,12 +1314,33 @@ header{
             font-weight: bold;
             font-style: normal;
             color: #191919; 
+
+            @media (max-width: 992px){
+                text-align: center;
+
+                margin-bottom: 30px;
+                
+                
+                
+                             
+            }
         
             
 
            }
 
            a{
+
+            @media (max-width: 992px){
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                
+                
+                
+                             
+            }
             
             
             
@@ -1315,15 +1359,25 @@ header{
        .team-showcase{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        
         gap: 30px;
 
         @media (max-width: 992px){
-            grid-template-columns: 2fr 2fr;
+            grid-template-columns: 1fr 1fr;
+            
+            justify-items: center;
             
                          
         }
            
            .employee-box{
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            
+            @media (max-width: 992px){
+                justify-items: center;
+            }
+            
             
             
             
@@ -1331,6 +1385,12 @@ header{
                 width: 100%;
                 height: auto;
                 margin-bottom: 28px;
+
+                @media (max-width: 992px){
+                    width: 75%;
+                    
+                                 
+                }
             
 
                }
@@ -1408,6 +1468,15 @@ header{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 85px;
+
+            @media (max-width: 992px){
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+                
+                
+                
+                             
+            }
             
     
             .testimonials-column{
@@ -1449,6 +1518,9 @@ header{
                         justify-content: center;
                         flex-direction: column;
                         
+                       
+                       
+                                              
                         
                         
                         
@@ -1480,31 +1552,32 @@ header{
         
             }
     
-            .bottom-section{
-                display: flex;
-                justify-content: center;
-                margin-top: 60px;
-                margin-bottom: 60px;
-                
     
-                a{
-                    
-                    
-                    
-    
-                    span{
-    
-                    }
-    
-                    i{
-    
-                    }
-                }
-            }
         }
                 
              
-       }  
+       }
+       .bottom-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        
+
+        a{
+            
+            
+            
+
+            span{
+
+            }
+
+            i{
+
+            }
+        }
+    }      
    } 
     
 

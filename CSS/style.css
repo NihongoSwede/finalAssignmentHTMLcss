@@ -839,6 +839,11 @@ header .container .btn-login {
   margin-top: 50px;
   margin-bottom: 65px;
 }
+@media (max-width: 992px) {
+  .global-projects .container .top-global {
+    padding-top: 40px;
+  }
+}
 .global-projects .container .top-global h3 {
   font-family: "Inter";
   font-size: 18px;
@@ -867,6 +872,10 @@ header .container .btn-login {
     display: grid;
     grid-template-columns: 1fr;
   }
+}
+.global-projects .container .global-projects-box .box-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 .global-projects .container .global-projects-box .box-container img {
   width: 100%;
@@ -929,16 +938,22 @@ header .container .btn-login {
   text-align: left;
   color: #f94d1c;
 }
+@media (max-width: 992px) {
+  .meet-the-team .container h4 {
+    text-align: center;
+  }
+}
 .meet-the-team .container .top-header-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  justify-content: space-between;
   margin-bottom: 85px;
 }
 @media (max-width: 992px) {
   .meet-the-team .container .top-header-button {
     margin-bottom: 60px;
+    display: block;
+    align-items: center;
   }
 }
 .meet-the-team .container .top-header-button h3 {
@@ -948,6 +963,19 @@ header .container .btn-login {
   font-style: normal;
   color: #191919;
 }
+@media (max-width: 992px) {
+  .meet-the-team .container .top-header-button h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .meet-the-team .container .top-header-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .meet-the-team .container .team-showcase {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -955,13 +983,28 @@ header .container .btn-login {
 }
 @media (max-width: 992px) {
   .meet-the-team .container .team-showcase {
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
+.meet-the-team .container .team-showcase .employee-box {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+@media (max-width: 992px) {
+  .meet-the-team .container .team-showcase .employee-box {
+    justify-items: center;
   }
 }
 .meet-the-team .container .team-showcase .employee-box .IMGSHOW {
   width: 100%;
   height: auto;
   margin-bottom: 28px;
+}
+@media (max-width: 992px) {
+  .meet-the-team .container .team-showcase .employee-box .IMGSHOW {
+    width: 75%;
+  }
 }
 .meet-the-team .container .team-showcase .employee-box h4 {
   font-family: "DM Sans";
@@ -1021,6 +1064,12 @@ header .container .btn-login {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 85px;
 }
+@media (max-width: 992px) {
+  .testimonials .white-box .container .testimonials-stack {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
 .testimonials .white-box .container .testimonials-stack .testimonials-column img {
   margin-bottom: 20px;
 }
@@ -1064,7 +1113,7 @@ header .container .btn-login {
   text-align: left;
   color: #f94d1c;
 }
-.testimonials .white-box .container .testimonials-stack .bottom-section {
+.testimonials .white-box .bottom-section {
   display: flex;
   justify-content: center;
   margin-top: 60px;
