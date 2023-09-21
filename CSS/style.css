@@ -414,9 +414,9 @@ header .container .btn-login {
 }
 @media (max-width: 992px) {
   .company-features .container {
-    display: flex;
-    align-items: center;
-    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 15px;
   }
 }
 .company-features .container .features {
@@ -431,6 +431,7 @@ header .container .btn-login {
   .company-features .container .features {
     display: block;
     padding-right: 10px;
+    justify-items: start;
   }
 }
 .company-features .container .features p {
@@ -730,7 +731,6 @@ header .container .btn-login {
 @media (max-width: 992px) {
   .whyChooseUs .container {
     flex-direction: column;
-    align-items: flex-start;
   }
 }
 .whyChooseUs .container .leftSection h3 {
