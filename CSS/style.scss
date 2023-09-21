@@ -991,6 +991,12 @@ header{
                 font-style: normal;
                 text-align: left;
                 color: #f94d1c;
+
+                @media (max-width: 992px){
+                    
+                    text-align: center;
+                                 
+                }
                 
             }
 
@@ -1005,6 +1011,7 @@ header{
 
                 @media (max-width: 992px){
                     font-size: 30px;
+                    text-align: center;
                                  
                 }
 
@@ -1012,67 +1019,81 @@ header{
 
             }
 
-            .stackIconArg{
-                display: flex;
-                align-items: start;
-                justify-content: start;
-                margin-bottom: 25px;
-
+            .grid-div{
+    
                 
+                    
+                    @media (max-width: 992px){
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-row: auto 1fr auto;
+                        gap: 15px;
+                        
+                        
+                        
+                                     
+                    }
+                    
+                    
+                    
+                                 
+                }
+                
+                
+                .stackIconArg{
+                    display: flex;
+                    align-items: start;
+                    justify-content: start;
+                    margin-bottom: 25px;
+    
+                    
+                    img{
+                        width: 55px;
+                        height: 55px;
+                        margin-right: 25px;
+                            
+                    }
+                    
+    
+                    .textStack{
+    
+                        
+                        
+                        
+    
+                        h5{
+                            font-family: "DM Sans";
+                            font-size: 22px;
+                            font-weight: bold;
+                            line-height: 33px;
+                            font-style: normal;
+                            text-align: left;
+                            color: #191919;
+    
+                            
+    
+                        }
+    
+                        p{
+                            font-family: "Inter";
+                            font-size: 16px;
+                            font-weight: normal;
+                            line-height: 28px;
+                            font-style: normal;
+                            text-align: left;
+                            letter-spacing: -10px;
+                            color: rgba(25,25,25,0.7 );
 
+    
+                            
+                            
+    
+                        }
+    
+                        
+                    }
+            }
             
-                
-
-
-                
-                
-                
-                
-                
-                img{
-                    width: 55px;
-                    height: 55px;
-                    margin-right: 25px;
-                        
-                }
-                
-
-                .textStack{
-
-                    
-                    
-                    
-
-                    h5{
-                        font-family: "DM Sans";
-                        font-size: 22px;
-                        font-weight: bold;
-                        line-height: 33px;
-                        font-style: normal;
-                        text-align: left;
-                        color: #191919;
-
-                        
-
-                    }
-
-                    p{
-                        font-family: "Inter";
-                        font-size: 16px;
-                        font-weight: normal;
-                        line-height: 28px;
-                        font-style: normal;
-                        text-align: left;
-                        letter-spacing: -10px;
-                        color: rgba(25,25,25,0.7 );
-
-                        
-                        
-
-                    }
-
-                    
-                }
             }
 
         }
@@ -1135,7 +1156,7 @@ header{
 
 
         }
-    }
+    
 }
 
 .global-projects{
@@ -1200,6 +1221,8 @@ header{
                     width: 100%;
                     height: auto;
                     margin-bottom: 30px;
+
+
                 }
 
                 h4{
@@ -1467,11 +1490,14 @@ header{
         .testimonials-stack{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
+            
             gap: 85px;
 
             @media (max-width: 992px){
                 grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto 1fr auto;
                 gap: 30px;
+                
                 
                 
                 
@@ -1560,8 +1586,12 @@ header{
        .bottom-section{
         display: flex;
         justify-content: center;
-        margin-top: 60px;
         margin-bottom: 60px;
+        margin-top: 60px;
+
+        @media (max-width: 992px){
+            margin-top: 30px;
+        }
         
 
         a{
@@ -1586,11 +1616,16 @@ header{
 
 .articles-news{
 
-    //Hur skriver man över Bootstrap, alternativt hur kan jag ändra småsaker utan att behöva ändra bootstrap?
-    
+
     
 
     .container{
+
+        @media (max-width: 992px){
+            
+            
+                         
+        }
         
         
         
@@ -1603,6 +1638,12 @@ header{
             font-style: normal;
             color: #f94d1c;
 
+            @media (max-width: 992px){
+                padding-bottom: 20px;
+                text-align: center;
+                             
+            }
+
         }
 
         .top-art-head{
@@ -1613,6 +1654,7 @@ header{
 
             @media (max-width: 992px){
                 display: block;
+                text-align: center;
                 
                              
             }
@@ -1644,6 +1686,8 @@ header{
 
             @media (max-width: 992px){
                 grid-template-columns: 1fr;
+                justify-items: center;
+                
                 
                              
             }
@@ -1654,9 +1698,18 @@ header{
             
             .article-stack{
                 position: relative;
+
+                
+
+                
                 
                 
                 .img-yellow-stack{
+
+                    
+
+                    
+                    
                      
                     
                     img{
@@ -1790,12 +1843,25 @@ header{
         justify-content: space-between;
         margin-top: 40px;
         margin-bottom: 28px;
-        position: relative;
+        
+        @media (max-width: 992px){
+            display: block;
+            
+            
+            
+                         
+        }
         
         
         
 
         .H3-part{
+            @media (max-width: 992px){
+                text-align: center;
+                
+                
+                             
+            }
             
             
             
@@ -1818,6 +1884,15 @@ header{
             align-items: center; /* Center horizontally */
             justify-content: center;
             gap: 10px;
+
+            @media (max-width: 992px){
+                display: grid;
+                gap: 0px
+                
+                
+                
+                             
+            }
             
             
             
@@ -1826,6 +1901,14 @@ header{
             form{
 
                 border: none;
+
+                @media (max-width: 992px){
+                    padding: 10px;
+                    
+                    
+                    
+                                 
+                }
                 
                 
 
@@ -1845,6 +1928,14 @@ header{
             }
             
             a{
+
+                @media (max-width: 992px){
+                    text-align: center;
+                    
+                    
+                    
+                                 
+                }
                 
 
             }
@@ -2020,16 +2111,3 @@ header{
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

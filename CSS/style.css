@@ -741,6 +741,11 @@ header .container .btn-login {
   text-align: left;
   color: #f94d1c;
 }
+@media (max-width: 992px) {
+  .whyChooseUs .container .leftSection h3 {
+    text-align: center;
+  }
+}
 .whyChooseUs .container .leftSection h4 {
   font-family: "DM Sans";
   font-size: 45px;
@@ -753,6 +758,15 @@ header .container .btn-login {
 @media (max-width: 992px) {
   .whyChooseUs .container .leftSection h4 {
     font-size: 30px;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .whyChooseUs .container .leftSection .grid-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto 1fr auto;
+    gap: 15px;
   }
 }
 .whyChooseUs .container .leftSection .stackIconArg {
@@ -785,7 +799,7 @@ header .container .btn-login {
   letter-spacing: -10px;
   color: rgba(25, 25, 25, 0.7);
 }
-.whyChooseUs .container .rightSection {
+.whyChooseUs .rightSection {
   width: 100%;
   height: auto;
   position: relative;
@@ -794,12 +808,12 @@ header .container .btn-login {
   align-items: start;
 }
 @media (max-width: 992px) {
-  .whyChooseUs .container .rightSection {
+  .whyChooseUs .rightSection {
     width: 75%;
     height: auto;
   }
 }
-.whyChooseUs .container .rightSection img {
+.whyChooseUs .rightSection img {
   position: absolute;
   left: 10%; /* Adjust the left property to move the image to the right */
   top: 3%;
@@ -807,14 +821,14 @@ header .container .btn-login {
   height: auto;
 }
 @media (max-width: 992px) {
-  .whyChooseUs .container .rightSection img {
+  .whyChooseUs .rightSection img {
     width: 55%;
     position: static;
     padding-left: 40px;
     margin-bottom: 40px;
   }
 }
-.whyChooseUs .container .rightSection .blueBox {
+.whyChooseUs .rightSection .blueBox {
   position: absolute;
   top: 32%;
   background-color: #F0EFE9;
@@ -823,7 +837,7 @@ header .container .btn-login {
   height: 398px;
 }
 @media (max-width: 992px) {
-  .whyChooseUs .container .rightSection .blueBox {
+  .whyChooseUs .rightSection .blueBox {
     width: 442px;
     height: 197px;
     top: 16%;
@@ -1067,6 +1081,7 @@ header .container .btn-login {
 @media (max-width: 992px) {
   .testimonials .white-box .container .testimonials-stack {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
     gap: 30px;
   }
 }
@@ -1116,8 +1131,13 @@ header .container .btn-login {
 .testimonials .white-box .bottom-section {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
   margin-bottom: 60px;
+  margin-top: 60px;
+}
+@media (max-width: 992px) {
+  .testimonials .white-box .bottom-section {
+    margin-top: 30px;
+  }
 }
 .articles-news .container .article-header {
   margin-top: 120px;
@@ -1128,6 +1148,12 @@ header .container .btn-login {
   font-style: normal;
   color: #f94d1c;
 }
+@media (max-width: 992px) {
+  .articles-news .container .article-header {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
 .articles-news .container .top-art-head {
   display: flex;
   align-items: center;
@@ -1137,6 +1163,7 @@ header .container .btn-login {
 @media (max-width: 992px) {
   .articles-news .container .top-art-head {
     display: block;
+    text-align: center;
   }
 }
 @media (max-width: 992px) {
@@ -1152,6 +1179,7 @@ header .container .btn-login {
 @media (max-width: 992px) {
   .articles-news .container .article-showcase {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
 }
 .articles-news .container .article-showcase .article-stack {
@@ -1239,7 +1267,16 @@ header .container .btn-login {
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 28px;
-  position: relative;
+}
+@media (max-width: 992px) {
+  .SignupForm .container {
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  .SignupForm .container .H3-part {
+    text-align: center;
+  }
 }
 .SignupForm .container .H3-part h3 {
   font-family: "DM Sans";
@@ -1255,8 +1292,19 @@ header .container .btn-login {
   justify-content: center;
   gap: 10px;
 }
+@media (max-width: 992px) {
+  .SignupForm .container .placeholder-sign {
+    display: grid;
+    gap: 0px;
+  }
+}
 .SignupForm .container .placeholder-sign form {
   border: none;
+}
+@media (max-width: 992px) {
+  .SignupForm .container .placeholder-sign form {
+    padding: 10px;
+  }
 }
 .SignupForm .container .placeholder-sign form input {
   padding: 10px 24px;
@@ -1264,6 +1312,12 @@ header .container .btn-login {
   border: 1px solid white;
   outline: none;
 }
+@media (max-width: 992px) {
+  .SignupForm .container .placeholder-sign a {
+    text-align: center;
+  }
+}
+
 .bottom-section1 {
   background-color: #0E1021;
   padding: 100px;
