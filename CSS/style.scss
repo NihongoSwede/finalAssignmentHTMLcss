@@ -902,11 +902,16 @@ header{
             line-height: 22px;
             font-style: normal;
             color: #f94d1c;
+            
             @media (max-width: 992px){
                 grid-template-columns: 1fr 1fr;
                 text-align: center;
                             
-           }
+            }
+
+            
+
+           
 
         }
 
@@ -935,6 +940,11 @@ header{
 
             @media (max-width: 992px){
                 grid-template-columns: 1fr 1fr;
+                            
+           }
+
+           @media (max-width: 638px){
+            grid-template-columns: 1fr;
                             
            }
             
@@ -1085,6 +1095,11 @@ header{
                         
                                      
                     }
+
+                    @media (max-width: 638px){
+                        grid-template-columns: 1fr;
+                                        
+                    }
                     
                     
                     
@@ -1180,19 +1195,29 @@ header{
 
                 
 
-                @media (max-width: 992px){
-                    width: 60%;
+                @media (max-width: 1200px){
+                    width: 80%;
+                    height: auto;
                     position: static;
                     padding-left: 40px;
                     margin-bottom: 40px;
+                    position: relative;
+                    top: 15%;
                                  
                 }
 
+                
+
+
+
                 @media (max-width: 776px){
-                    width: 60%;
+                    
+                    width: 80%;
+                    height: auto;
                     position: static;
                     padding-left: 40px;
                     margin-bottom: 40px;
+                    position: relative;
                     
                             
                 }
@@ -1208,24 +1233,30 @@ header{
                 height: 398px;
 
                 @media (max-width: 1200px){
+                    position: absolute;
                     margin-left: 10px;
-                    height: 298px;
+                    height: 258px;
+                    width: 664px;
+                
                     
                                 
                }
 
                 
 
-                @media (max-width: 992px){
-                    width: 412px;
-                    height: 200px;
+                @media (max-width: 776px){
+                    position: absolute;
+                    
+                    height: 270px;
                     top: 16%;
+                    width: 564px;
                                 
                }
 
                @media (max-width: 696px){
-                    width: 290px;
-                    height: 140px;
+                    position: absolute;
+                    width: 412px;
+                    height: 200px;
                     top: 16%;
                     
                             
@@ -1539,6 +1570,10 @@ header{
     padding: 60px;
     max-width: 100%;
     margin-bottom: 55px;
+
+    @media (max-width: 638px){
+        padding: abs($number: 0);                        
+    }
     
     
     .container{
@@ -1554,6 +1589,8 @@ header{
             text-align: center;
             color: #f94d1c;
             margin-top: 60px;
+
+            
 
             
             
@@ -1572,6 +1609,11 @@ header{
             text-align: center;
             color: #191919;
 
+            @media (max-width: 638px){
+                font-size: 35px;
+                width: fit-content;
+                                
+            }
             
     
         }

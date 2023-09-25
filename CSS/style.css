@@ -712,6 +712,11 @@ header .container .btn-login {
     grid-template-columns: 1fr 1fr;
   }
 }
+@media (max-width: 638px) {
+  .companyServices .container .stacks-showcase {
+    grid-template-columns: 1fr;
+  }
+}
 .companyServices .container .stacks-showcase .squares-button {
   background-color: #ffffff;
   padding: 30px 35px;
@@ -809,6 +814,11 @@ header .container .btn-login {
     gap: 15px;
   }
 }
+@media (max-width: 638px) {
+  .whyChooseUs .container .leftSection .grid-div {
+    grid-template-columns: 1fr;
+  }
+}
 .whyChooseUs .container .leftSection .stackIconArg {
   display: flex;
   align-items: start;
@@ -860,20 +870,25 @@ header .container .btn-login {
   width: 90%;
   height: auto;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .whyChooseUs .rightSection img {
-    width: 60%;
+    width: 80%;
+    height: auto;
     position: static;
     padding-left: 40px;
     margin-bottom: 40px;
+    position: relative;
+    top: 15%;
   }
 }
 @media (max-width: 776px) {
   .whyChooseUs .rightSection img {
-    width: 60%;
+    width: 80%;
+    height: auto;
     position: static;
     padding-left: 40px;
     margin-bottom: 40px;
+    position: relative;
   }
 }
 .whyChooseUs .rightSection .blueBox {
@@ -886,21 +901,25 @@ header .container .btn-login {
 }
 @media (max-width: 1200px) {
   .whyChooseUs .rightSection .blueBox {
+    position: absolute;
     margin-left: 10px;
-    height: 298px;
+    height: 258px;
+    width: 664px;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 776px) {
   .whyChooseUs .rightSection .blueBox {
-    width: 412px;
-    height: 200px;
+    position: absolute;
+    height: 270px;
     top: 16%;
+    width: 564px;
   }
 }
 @media (max-width: 696px) {
   .whyChooseUs .rightSection .blueBox {
-    width: 290px;
-    height: 140px;
+    position: absolute;
+    width: 412px;
+    height: 200px;
     top: 16%;
   }
 }
@@ -1114,6 +1133,11 @@ header .container .btn-login {
   max-width: 100%;
   margin-bottom: 55px;
 }
+@media (max-width: 638px) {
+  .testimonials .white-box {
+    padding: 0;
+  }
+}
 .testimonials .white-box .container .topTest {
   font-family: "Inter";
   font-size: 18px;
@@ -1133,6 +1157,13 @@ header .container .btn-login {
   font-style: normal;
   text-align: center;
   color: #191919;
+}
+@media (max-width: 638px) {
+  .testimonials .white-box .container h3 {
+    font-size: 35px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }
 .testimonials .white-box .container .testimonials-stack {
   display: grid;
