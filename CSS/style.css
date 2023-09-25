@@ -334,6 +334,12 @@ header .container .btn-login {
   align-items: center;
   position: relative;
 }
+@media (max-width: 776px) {
+  .showcase .container .content {
+    display: grid;
+    gap: 5px;
+  }
+}
 .showcase .container .content h1 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -398,10 +404,17 @@ header .container .btn-login {
   padding-top: 72px;
   padding-bottom: 80px;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .company-showcase .container .clients {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .company-showcase .container .clients {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
   }
 }
 
@@ -412,11 +425,12 @@ header .container .btn-login {
   padding-bottom: 80px;
   border: 2px solid RGBA(25, 25, 25, 0.2);
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .company-features .container {
     display: grid;
     grid-template-rows: 1fr;
-    gap: 15px;
+    justify-items: center;
+    gap: 30px;
   }
 }
 .company-features .container .features {
@@ -431,7 +445,9 @@ header .container .btn-login {
   .company-features .container .features {
     display: block;
     padding-right: 10px;
-    justify-items: start;
+    justify-items: center;
+    padding: 0px;
+    margin-bottom: 10px;
   }
 }
 .company-features .container .features p {
@@ -441,6 +457,11 @@ header .container .btn-login {
   font-style: normal;
   color: #f94d1c;
   margin-bottom: 0px;
+}
+@media (max-width: 1200px) {
+  .company-features .container .features {
+    margin-top: 20px;
+  }
 }
 .company-features .container .features h3 {
   font-family: "DM Sans";
@@ -473,6 +494,13 @@ header .container .btn-login {
     grid-template-columns: 2fr;
   }
 }
+@media (max-width: 1200px) {
+  .company-features .container .company-features-icons {
+    gap: 20px;
+    margin: 20px;
+    grid-template-rows: 1fr;
+  }
+}
 .company-features .container .company-features-icons .iconStack i {
   width: 40px;
   height: 40px;
@@ -498,7 +526,7 @@ header .container .btn-login {
   justify-content: center;
   position: relative;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .aboutCompany .container {
     display: block;
   }
@@ -509,7 +537,7 @@ header .container .btn-login {
   margin-left: 50px;
   margin-right: 170px;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .aboutCompany .container .woman {
     margin-left: 0;
     width: 50%;
@@ -522,12 +550,12 @@ header .container .btn-login {
   left: 27px;
   top: 160px;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .aboutCompany .container .stripes-woman {
     left: 0;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .aboutCompany .container .stripes-woman img {
     width: 25%;
     left: 0;
@@ -542,11 +570,23 @@ header .container .btn-login {
   height: 180px;
   width: 400px;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .aboutCompany .container .text-box-blue {
     display: block;
     top: 29%;
     left: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .aboutCompany .container .text-box-blue {
+    display: block;
+    top: 29%;
+    left: 30%;
+    height: auto;
+    width: 50%;
+    position: relative;
+    left: 0;
+    margin-top: 20px;
   }
 }
 .aboutCompany .container .text-box-blue h4 {
@@ -822,7 +862,15 @@ header .container .btn-login {
 }
 @media (max-width: 992px) {
   .whyChooseUs .rightSection img {
-    width: 55%;
+    width: 60%;
+    position: static;
+    padding-left: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 776px) {
+  .whyChooseUs .rightSection img {
+    width: 60%;
     position: static;
     padding-left: 40px;
     margin-bottom: 40px;
@@ -836,10 +884,23 @@ header .container .btn-login {
   width: 884px;
   height: 398px;
 }
+@media (max-width: 1200px) {
+  .whyChooseUs .rightSection .blueBox {
+    margin-left: 10px;
+    height: 298px;
+  }
+}
 @media (max-width: 992px) {
   .whyChooseUs .rightSection .blueBox {
-    width: 442px;
-    height: 197px;
+    width: 412px;
+    height: 200px;
+    top: 16%;
+  }
+}
+@media (max-width: 696px) {
+  .whyChooseUs .rightSection .blueBox {
+    width: 290px;
+    height: 140px;
     top: 16%;
   }
 }
@@ -1085,6 +1146,14 @@ header .container .btn-login {
     gap: 30px;
   }
 }
+@media (max-width: 638px) {
+  .testimonials .white-box .container .testimonials-stack {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 30px;
+    justify-content: center;
+  }
+}
 .testimonials .white-box .container .testimonials-stack .testimonials-column img {
   margin-bottom: 20px;
 }
@@ -1328,9 +1397,20 @@ header .container .btn-login {
   justify-content: space-between;
   margin-top: 20px;
 }
+@media (max-width: 1200px) {
+  .bottom-section1 .container {
+    display: grid;
+  }
+}
 .bottom-section1 .container .picture-text-div {
   width: 35%;
   margin-right: 10%;
+}
+@media (max-width: 1200px) {
+  .bottom-section1 .container .picture-text-div {
+    margin-right: 0%;
+    width: 80%;
+  }
 }
 .bottom-section1 .container .picture-text-div img {
   margin-bottom: 28px;
@@ -1350,11 +1430,22 @@ header .container .btn-login {
   height: auto;
   gap: 25px;
   margin-top: 25px;
+  white-space: nowrap;
+}
+@media (max-width: 1200px) {
+  .bottom-section1 .container .rightPartsec {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+}
+@media (max-width: 500px) {
+  .bottom-section1 .container .rightPartsec {
+    display: contents;
+  }
 }
 .bottom-section1 .container .rightPartsec .divStack {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 .bottom-section1 .container .rightPartsec .divStack h4 {
   font-family: "DM Sans";
@@ -1379,6 +1470,11 @@ header .container .btn-login {
   left: 67%;
   top: 79%;
   pointer-events: none;
+}
+@media (max-width: 992px) {
+  .bottom-section1 .last-line-part {
+    display: none;
+  }
 }
 
 .final-part {
