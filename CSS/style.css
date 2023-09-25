@@ -1535,3 +1535,110 @@ header .container .btn-login {
 .final-part .container .footerStack .socialMediadiv a:hover {
   color: #666666;
 }
+
+.connect-header {
+  padding: 5px;
+  background-color: #F0EFE9;
+  position: relative;
+}
+.connect-header .stripes-connect {
+  position: absolute;
+  top: 30%;
+  left: -16%;
+}
+@media (max-width: 1200px) {
+  .connect-header .stripes-connect {
+    display: none;
+  }
+}
+.connect-header .container .top-nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 112px;
+}
+.connect-header .container .top-nav-bar .home-tag {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  color: #191919;
+}
+.connect-header .container .top-nav-bar .contact-tag {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  color: #191919;
+}
+.connect-header .container h3 {
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 56px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #191919;
+  margin-bottom: 92px;
+}
+
+.connect-options .container .connect-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  justify-items: center;
+  margin-top: 138px;
+  margin-bottom: 80px;
+  padding: 10px;
+  gap: 15px;
+}
+@media (max-width: 1126px) {
+  .connect-options .container .connect-box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.connect-options .container .connect-box .connect-itemstack {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #D4D4D4;
+  width: 100%;
+  height: 180px;
+}
+.connect-options .container .connect-box .connect-itemstack .circle-black {
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+.connect-options .container .connect-box .connect-itemstack .circle-black i {
+  font-size: 20px;
+  color: white;
+}
+.connect-options .container .connect-box .connect-itemstack .stack-text {
+  margin-top: 35px;
+}
+.connect-options .container .connect-box .connect-itemstack .stack-text h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  color: #191919;
+}
+.connect-options .container .connect-box .connect-itemstack .stack-text p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  color: rgba(25, 25, 25, 0.8);
+  margin-bottom: 5px;
+}
