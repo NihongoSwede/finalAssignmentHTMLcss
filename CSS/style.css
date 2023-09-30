@@ -1001,6 +1001,13 @@ header .container .btn-login {
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+.global-projects .container .global-projects-box .box-container:hover {
+  color: #191919;
+  text-decoration: none;
+}
+.global-projects .container .global-projects-box .box-container:hover span {
+  text-decoration: underline;
+}
 .global-projects .container .global-projects-box .box-container img {
   width: 100%;
   height: auto;

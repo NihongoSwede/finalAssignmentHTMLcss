@@ -1368,6 +1368,15 @@ header{
                 display: grid;
                 
                 grid-template-rows: auto 1fr auto;
+
+                &:hover {
+                    color:  #191919;
+                    text-decoration: none;
+            
+                    span {
+                        text-decoration: underline;
+                    }
+                }
                 
                 img{
                     width: 100%;
