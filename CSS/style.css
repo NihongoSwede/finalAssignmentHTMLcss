@@ -23,6 +23,7 @@ html, body {
   background-color: #191919;
   border: 1px solid;
   color: #f0ef09;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .btn-transparent {
@@ -42,6 +43,7 @@ html, body {
   background-color: #191919;
   border: 1px solid;
   color: #f0ef09;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .btn-transparent-mid {
@@ -61,6 +63,7 @@ html, body {
   background-color: #191919;
   border: 1px solid;
   color: #f0ef09;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .btn-black {
@@ -84,6 +87,7 @@ html, body {
   border: 1px solid;
   color: #191919;
   text-decoration: none;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .btn-black:hover span {
   text-decoration: underline;
@@ -111,6 +115,7 @@ html, body {
   border: 1px solid;
   color: #191919;
   text-decoration: none;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .btn-black-btm:hover span {
   text-decoration: underline;
@@ -137,6 +142,7 @@ html, body {
   border: 1px solid white;
   color: white;
   text-decoration: none;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .btn-subscribe:hover span {
   text-decoration: underline;
@@ -159,10 +165,11 @@ html, body {
   opacity: 1;
 }
 .all-reviews-btn:hover {
-  background-color: #191919;
-  border: 1px solid white;
+  background-color: #f94d1c;
+  border: 1px solid #191919;
   color: white;
   text-decoration: none;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .all-reviews-btn:hover span {
   text-decoration: underline;
@@ -189,6 +196,7 @@ html, body {
   border: 1px solid white;
   color: white;
   text-decoration: none;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .btn-black-meet-team:hover span {
   text-decoration: underline;
@@ -215,6 +223,7 @@ html, body {
   border: 1px solid white;
   color: white;
   text-decoration: none;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .trn-btn-art-sec:hover span {
   text-decoration: underline;
@@ -241,9 +250,10 @@ html, body {
 }
 .btn-send-pg-2:hover {
   background-color: #191919;
-  border: 1px solid white;
+  border: solid 1px white;
   color: white;
   text-decoration: none;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .btn-send-pg-2:hover span {
   text-decoration: underline;
@@ -322,6 +332,7 @@ header .container .social-media a {
 }
 header .container .social-media a:hover {
   color: #666666;
+  transition: color 0.5s ease-in-out;
 }
 header .container .main-menu {
   display: flex;
@@ -720,6 +731,7 @@ header .container .btn-login {
 .aboutCompany .container .aboutCompanyContent .icon-pack .play-button:hover {
   color: #f94d1c;
   text-decoration: none;
+  transition: color 0.5s ease-in-out;
 }
 
 .companyServices {
@@ -809,10 +821,12 @@ header .container .btn-login {
 }
 .companyServices .container .stacks-showcase .squares-button:hover {
   background-color: #F9D783;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .companyServices .container .stacks-showcase .squares-button:hover i {
   color: #191919;
   background: #ffffff;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .companyServices .container .singleButton {
   display: flex;
@@ -1598,6 +1612,7 @@ header .container .btn-login {
 }
 .final-part .container .footerStack .socialMediadiv a:hover {
   color: #666666;
+  transition: color 0.5s ease-in-out;
 }
 
 .connect-header {
@@ -1712,12 +1727,15 @@ header .container .btn-login {
 }
 .connect-options .container .connect-box .connect-itemstack:hover {
   background-color: #F9D783;
+  transition: background-color 0.5s ease-in-out;
 }
 .connect-options .container .connect-box .connect-itemstack:hover .circle-black {
   background-color: white;
+  transition: background-color 0.5s ease-in-out;
 }
 .connect-options .container .connect-box .connect-itemstack:hover i {
   color: #191919;
+  transition: color 0.2s ease-in-out;
 }
 
 .contact-form {

@@ -17,6 +17,7 @@ html, body{
     font-weight: 600;
     border-radius: 25px;
     font-size: 16px;
+    
 
     i {
         margin-left: 5px;
@@ -27,6 +28,7 @@ html, body{
         background-color: #191919;
         border: 1px solid;
         color: #f0ef09;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
         
     }
 }
@@ -48,6 +50,7 @@ html, body{
         background-color: #191919;
         border: 1px solid;
         color: #f0ef09;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     }
 }
 
@@ -68,6 +71,7 @@ html, body{
         background-color: #191919;
         border: 1px solid;
         color: #f0ef09;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     }
 }
 
@@ -95,6 +99,7 @@ html, body{
         border: 1px solid;
         color:  #191919;
         text-decoration: none;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 
         span {
             text-decoration: underline;
@@ -127,6 +132,7 @@ html, body{
         border: 1px solid;
         color:  #191919;
         text-decoration: none;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 
         span {
             text-decoration: underline;
@@ -144,6 +150,7 @@ html, body{
     font-size: 16px;
     font-family: "Inter";
     font-weight: normal;
+    
      
 
 
@@ -159,6 +166,7 @@ html, body{
         border: 1px solid white;
         color:  white;
         text-decoration: none;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 
         span {
             text-decoration: underline;
@@ -188,10 +196,11 @@ html, body{
         
     }
     &:hover {
-        background-color: #191919;
-        border: 1px solid white;
+        background-color: #f94d1c;
+        border: 1px solid #191919;
         color:  white;
         text-decoration: none;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 
         span {
             text-decoration: underline;
@@ -224,6 +233,7 @@ html, body{
         border: 1px solid white;
         color:  white;
         text-decoration: none;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 
         span {
             text-decoration: underline;
@@ -256,6 +266,7 @@ html, body{
         border: 1px solid white;
         color:  white;
         text-decoration: none;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 
         span {
             text-decoration: underline;
@@ -288,9 +299,10 @@ html, body{
     }
     &:hover {
         background-color: #191919;
-        border: 1px solid white;
+        border: solid 1px white;
         color:  white;
         text-decoration: none;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 
         span {
             text-decoration: underline;
@@ -386,6 +398,7 @@ header{
 
                 &:hover{
                    color: #666666; 
+                   transition: color 0.5s ease-in-out;
                 }
             }
             
@@ -423,6 +436,7 @@ header{
                     left: 50%;
                     bottom: -3px;
                     transform: translate((calc(50% - 15px)));
+                    
                 }
 
             }
@@ -693,7 +707,7 @@ header{
             
 
             .iconStack{
-            width: auto;
+                width: auto;
 
             @media (max-width: 1200px){
                 width: 50%;
@@ -701,7 +715,7 @@ header{
            }
 
            @media (max-width: 992px){
-            width: auto;
+                width: auto;
                         
             }
 
@@ -936,6 +950,7 @@ header{
                       &:hover{
                           color: #f94d1c;
                           text-decoration: none;
+                          transition: color 0.5s ease-in-out
                           
 
                     }
@@ -1058,10 +1073,12 @@ header{
 
                 &:hover{
                     background-color: #F9D783;
+                    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 
                     i{
                         color: #191919;
                         background: #ffffff;
+                        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
                     }
                 
     
@@ -2335,6 +2352,7 @@ header{
 
                     &:hover{
                         color: #666666; 
+                        transition: color 0.5s ease-in-out;
                     }
                     
                     
@@ -2499,13 +2517,17 @@ header{
 
                 &:hover{
                     background-color: #F9D783;
+                    transition: background-color 0.5s ease-in-out;
 
                     .circle-black{
                         background-color: white;
+                        transition: background-color 0.5s ease-in-out;
                     }
 
                     i{
                         color: #191919;
+                        transition: color 0.2s ease-in-out;
+                        
                         
                     }
                 
