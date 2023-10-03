@@ -389,7 +389,7 @@ header .container .btn-login {
   font-weight: 700;
   font-size: 86px;
 }
-@media (max-width: 280px) {
+@media (max-width: 360px) {
   .showcase .container .content h1 {
     font-size: 50px;
   }
