@@ -434,6 +434,12 @@ header .container .btn-login {
 .showcase img {
   margin-right: -50px;
 }
+@media (max-width: 820px) {
+  .showcase img {
+    width: 50%;
+    height: 10%;
+  }
+}
 @media (max-width: 768px) {
   .showcase img {
     display: none;
@@ -466,7 +472,7 @@ header .container .btn-login {
     gap: 50px;
   }
 }
-@media (max-width: 280px) {
+@media (max-width: 360px) {
   .company-showcase .container .clients {
     display: grid;
     grid-template-columns: 1fr;
@@ -1297,7 +1303,7 @@ header .container .btn-login {
     gap: 30px;
   }
 }
-@media (max-width: 638px) {
+@media (max-width: 915px) {
   .testimonials .white-box .container .testimonials-stack {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
